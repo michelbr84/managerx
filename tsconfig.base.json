@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "newLine": "lf",
+    "baseUrl": ".",
+    "paths": {
+      "@managerx/core-sim": ["packages/core-sim/src"],
+      "@managerx/db": ["packages/db/src"],
+      "@managerx/ui": ["packages/ui/src"],
+      "@managerx/content": ["packages/content/src"]
+    }
+  },
+  "exclude": ["**/dist", "**/node_modules"]
+}
