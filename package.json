@@ -19,7 +19,9 @@
     "build": "pnpm -r --parallel build",
     "test": "pnpm -r --parallel test",
     "dev": "pnpm -C apps/desktop dev",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "content:validate": "pnpm -C packages/content content:validate",
+    "content:generate": "pnpm -C packages/content content:generate"
   },
   "pnpm": {
     "packageExtensions": {

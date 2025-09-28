@@ -10,7 +10,15 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0",
-    "test": "vitest run"
+    "test": "vitest run",
+    "content:validate": "tsx src/scripts/validate.ts",
+    "content:generate": "tsx src/scripts/generate.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
   }
 }
 
