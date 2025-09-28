@@ -1,0 +1,61 @@
+<!-- GOG Logo Format: 200x200px -->
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gogBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#002200;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    <filter id="gogGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="url(#gogBg)"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="gogGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#00ff00" stroke-width="0.2" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#gogGrid)"/>
+  
+  <!-- Central M logo -->
+  <g filter="url(#gogGlow)">
+    <!-- M shape optimized for circular format -->
+    <g transform="translate(100, 100)">
+      <!-- Left pillar -->
+      <rect x="-40" y="-35" width="8" height="50" fill="#00ff00"/>
+      <!-- Right pillar -->
+      <rect x="32" y="-35" width="8" height="50" fill="#00ff00"/>
+      <!-- Left diagonal -->
+      <polygon points="-32,-35 -15,-10 -20,-10 -32,-25" fill="#00ff00"/>
+      <!-- Right diagonal -->
+      <polygon points="32,-35 15,-10 20,-10 32,-25" fill="#00ff00"/>
+      <!-- Center peak -->
+      <polygon points="-15,-10 0,-25 15,-10 10,-5 0,-15 -10,-5" fill="#00ff00"/>
+    </g>
+  </g>
+  
+  <!-- Football at bottom -->
+  <g transform="translate(100, 160)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#00ff00" stroke-width="2" filter="url(#gogGlow)"/>
+    <polygon points="-4,-4 4,-4 5,0 4,4 -4,4 -5,0" fill="none" stroke="#00ff00" stroke-width="1"/>
+    <circle cx="0" cy="0" r="1.5" fill="#00ff00"/>
+  </g>
+  
+  <!-- Circular text -->
+  <defs>
+    <path id="circle-text-path" d="M 100,30 A 70,70 0 1,1 99,30"/>
+  </defs>
+  <text font-family="Courier New, monospace" font-size="12" fill="#00ff00" opacity="0.7">
+    <textPath href="#circle-text-path">
+      FOOTBALL MANAGEMENT • TACTICAL DEPTH • AI POWERED • 
+    </textPath>
+  </text>
+</svg>

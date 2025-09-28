@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00cc00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#009900;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="#000000"/>
+  
+  <!-- Retro grid pattern -->
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#grid)"/>
+  
+  <!-- Main logo shape - stylized 'M' -->
+  <g filter="url(#glow)">
+    <!-- Left pillar of M -->
+    <rect x="80" y="120" width="40" height="280" fill="url(#greenGlow)"/>
+    
+    <!-- Right pillar of M -->
+    <rect x="392" y="120" width="40" height="280" fill="url(#greenGlow)"/>
+    
+    <!-- Left diagonal of M -->
+    <polygon points="120,120 200,240 160,240 120,160" fill="url(#greenGlow)"/>
+    
+    <!-- Right diagonal of M -->
+    <polygon points="392,120 312,240 352,240 392,160" fill="url(#greenGlow)"/>
+    
+    <!-- Center connection -->
+    <polygon points="200,240 256,180 312,240 280,260 256,220 232,260" fill="url(#greenGlow)"/>
+  </g>
+  
+  <!-- Football icon -->
+  <g transform="translate(256,350)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ff00" stroke-width="3" filter="url(#glow)"/>
+    <polygon points="-15,-15 15,-15 20,0 15,15 -15,15 -20,0" fill="none" stroke="#00ff00" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#00ff00"/>
+  </g>
+  
+  <!-- Retro text effect -->
+  <text x="256" y="450" text-anchor="middle" font-family="Courier New, monospace" font-size="32" font-weight="bold" fill="#00ff00" filter="url(#glow)">
+    ManagerX
+  </text>
+  
+  <!-- Version indicator -->
+  <text x="256" y="480" text-anchor="middle" font-family="Courier New, monospace" font-size="16" fill="#00ff00" opacity="0.7">
+    v0.1 BETA
+  </text>
+</svg>

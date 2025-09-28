@@ -1,0 +1,42 @@
+[
+  {
+    "id": "FX-000001",
+    "season": 2025,
+    "competition": "AlbionX-D1",
+    "round": 1,
+    "date": "2024-08-10",
+    "homeClubId": "CLB-0001",
+    "awayClubId": "CLB-0002",
+    "played": false
+  },
+  {
+    "id": "FX-000002",
+    "season": 2025,
+    "competition": "AlbionX-D1",
+    "round": 1,
+    "date": "2024-08-10",
+    "homeClubId": "CLB-0003",
+    "awayClubId": "CLB-0004",
+    "played": false
+  },
+  {
+    "id": "FX-000003",
+    "season": 2025,
+    "competition": "LusitaniaX-D1",
+    "round": 1,
+    "date": "2024-08-11",
+    "homeClubId": "CLB-0036",
+    "awayClubId": "CLB-0037",
+    "played": false
+  },
+  {
+    "id": "FX-000004",
+    "season": 2025,
+    "competition": "IberiaX-D1",
+    "round": 1,
+    "date": "2024-08-12",
+    "homeClubId": "CLB-0103",
+    "awayClubId": "CLB-0104",
+    "played": false
+  }
+]

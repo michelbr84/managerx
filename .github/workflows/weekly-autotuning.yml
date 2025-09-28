@@ -1,0 +1,206 @@
+name: Weekly Auto-Tuning
+
+on:
+  schedule:
+    # Run every Monday at 9 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      force_pr:
+        description: 'Force create PR even with no changes'
+        required: false
+        default: 'false'
+
+jobs:
+  auto-tune:
+    name: Generate Balance Recommendations
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Build analytics package
+        run: pnpm -C packages/analytics build
+        
+      - name: Generate analytics dashboard
+        run: pnpm -C packages/analytics analytics:dashboard
+        
+      - name: Run auto-tuning analysis
+        run: pnpm -C packages/analytics analytics:tune
+        
+      - name: Check for tuning recommendations
+        id: check_changes
+        run: |
+          if [ -f ".github/auto-tuning/pr-content.json" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📊 Auto-tuning recommendations generated"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "✅ No tuning changes recommended this week"
+          fi
+          
+      - name: Create auto-tuning branch
+        if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_pr == 'true'
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          BRANCH="chore/balance-weekly-tuning-$DATE"
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git checkout -b "$BRANCH"
+          
+          # Commit dashboard updates
+          git add docs/ANALYTICS/
+          git commit -m "docs(analytics): update weekly dashboard $DATE" || echo "No dashboard changes"
+          
+          echo "BRANCH_NAME=$BRANCH" >> $GITHUB_ENV
+          
+      - name: Apply automatic balance changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          # Read PR content
+          if [ -f ".github/auto-tuning/pr-content.json" ]; then
+            TITLE=$(jq -r '.title' .github/auto-tuning/pr-content.json)
+            BODY=$(jq -r '.body' .github/auto-tuning/pr-content.json)
+            
+            echo "PR_TITLE=$TITLE" >> $GITHUB_ENV
+            echo "PR_BODY<<EOF" >> $GITHUB_ENV
+            echo "$BODY" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            
+            # TODO: Apply actual code changes here
+            # This would parse the recommendations and modify source files
+            echo "⚠️ Code changes would be applied here in full implementation"
+            
+            # For now, just commit the analysis results
+            git add .github/auto-tuning/
+            git commit -m "chore: add auto-tuning analysis results"
+          fi
+          
+      - name: Push changes
+        if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_pr == 'true'
+        run: |
+          git push origin "$BRANCH_NAME"
+          
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true' || github.event.inputs.force_pr == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = process.env.PR_TITLE || `chore(balance): weekly tuning ${new Date().toISOString().split('T')[0]}`;
+            const body = process.env.PR_BODY || 'Weekly auto-tuning analysis completed.';
+            
+            try {
+              const response = await github.rest.pulls.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                head: process.env.BRANCH_NAME,
+                base: 'main',
+                draft: false,
+              });
+              
+              console.log(`✅ Created PR #${response.data.number}: ${response.data.html_url}`);
+              
+              // Add labels
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: response.data.number,
+                labels: ['auto-tuning', 'chore', 'balance'],
+              });
+              
+            } catch (error) {
+              console.error('❌ Failed to create PR:', error);
+              process.exit(1);
+            }
+
+  dashboard-update:
+    name: Update Analytics Dashboard
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Generate analytics dashboard
+        run: pnpm -C packages/analytics analytics:dashboard
+        
+      - name: Deploy dashboard to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/ANALYTICS
+          destination_dir: analytics
+          
+      - name: Comment dashboard link on recent PRs
+        uses: actions/github-script@v7
+        if: github.ref == 'refs/heads/main'
+        with:
+          script: |
+            // Find recent PRs that might benefit from analytics update
+            const { data: prs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              sort: 'updated',
+              per_page: 5,
+            });
+            
+            const analyticsComment = `📊 **Analytics Dashboard Updated**
+            
+View the latest metrics and KPIs: [Analytics Dashboard](https://${context.repo.owner}.github.io/${context.repo.repo}/analytics/)
+
+Dashboard includes:
+- User retention metrics (D1/D7/D30)
+- Session and engagement analytics  
+- Performance benchmarks
+- Feature adoption rates
+- Auto-tuning recommendations
+
+*Updated automatically every Monday*`;
+
+            // Comment on PRs with 'analytics' or 'balance' labels
+            for (const pr of prs) {
+              const labels = pr.labels.map(l => l.name);
+              if (labels.includes('analytics') || labels.includes('balance') || labels.includes('auto-tuning')) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                  body: analyticsComment,
+                });
+              }
+            }
