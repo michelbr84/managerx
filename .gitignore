@@ -1,0 +1,32 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+coverage
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.DS_Store
+.idea
+.vscode
+
+# Env
+.env
+.env.*.local
+
+# Tauri/Rust
+apps/desktop/src-tauri/target
+apps/desktop/src-tauri/**/target
+**/*.rs.bk
+
+# Vite
+apps/desktop/dist
+
+

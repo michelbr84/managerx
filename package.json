@@ -1,0 +1,57 @@
+{
+  "name": "managerx-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ManagerX monorepo (Tauri + React + TypeScript) with pnpm workspaces",
+  "author": "ManagerX AI Team",
+  "license": "MIT",
+  "packageManager": "pnpm@9.11.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "typecheck": "pnpm -r --parallel typecheck",
+    "build": "pnpm -r --parallel build",
+    "test": "pnpm -r --parallel test",
+    "dev": "pnpm -C apps/desktop dev",
+    "release": "semantic-release"
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "@testing-library/react@*": {
+        "peerDependencies": {
+          "react": "^18 || ^19",
+          "react-dom": "^18 || ^19"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^8.44.1",
+    "@typescript-eslint/parser": "^8.44.1",
+    "typescript-eslint": "^8.44.1",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.1.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3",
+    "@testing-library/react": "^16.0.1"
+  }
+}
+
