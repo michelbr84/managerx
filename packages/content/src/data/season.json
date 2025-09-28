@@ -1,0 +1,17 @@
+{
+  "year": 2025,
+  "startDate": "2024-08-01",
+  "endDate": "2025-05-31",
+  "transferWindows": [
+    {
+      "name": "Summer",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-31"
+    },
+    {
+      "name": "Winter",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-31"
+    }
+  ]
+}

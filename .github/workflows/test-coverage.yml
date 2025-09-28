@@ -1,0 +1,234 @@
+name: Test Coverage and Quality
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  unit-tests:
+    name: Unit Tests with Coverage
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Run type checking
+        run: pnpm typecheck
+        
+      - name: Run linting
+        run: pnpm lint
+        
+      - name: Run unit tests with coverage
+        run: pnpm test:coverage
+        
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage/lcov.info
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: false
+          
+      - name: Generate coverage report
+        run: |
+          echo "## Test Coverage Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Extract coverage percentages from coverage/coverage-summary.json if it exists
+          if [ -f "coverage/coverage-summary.json" ]; then
+            echo "### Overall Coverage" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "| Metric | Percentage |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|------------|" >> $GITHUB_STEP_SUMMARY
+            
+            # Use jq to extract coverage data
+            LINES=$(jq -r '.total.lines.pct' coverage/coverage-summary.json)
+            FUNCTIONS=$(jq -r '.total.functions.pct' coverage/coverage-summary.json)
+            BRANCHES=$(jq -r '.total.branches.pct' coverage/coverage-summary.json)
+            STATEMENTS=$(jq -r '.total.statements.pct' coverage/coverage-summary.json)
+            
+            echo "| Lines | ${LINES}% |" >> $GITHUB_STEP_SUMMARY
+            echo "| Functions | ${FUNCTIONS}% |" >> $GITHUB_STEP_SUMMARY
+            echo "| Branches | ${BRANCHES}% |" >> $GITHUB_STEP_SUMMARY
+            echo "| Statements | ${STATEMENTS}% |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+      - name: Check coverage thresholds
+        run: |
+          # Fail if coverage is below thresholds
+          if [ -f "coverage/coverage-summary.json" ]; then
+            LINES=$(jq -r '.total.lines.pct' coverage/coverage-summary.json)
+            
+            if (( $(echo "$LINES < 80" | bc -l) )); then
+              echo "❌ Line coverage ($LINES%) is below 80% threshold"
+              exit 1
+            else
+              echo "✅ Coverage thresholds met: $LINES%"
+            fi
+          fi
+
+  e2e-tests:
+    name: E2E Tests
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Build packages
+        run: pnpm build
+        
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+        
+      - name: Run E2E tests
+        run: pnpm test:e2e
+        env:
+          CI: true
+          
+      - name: Upload E2E test results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: playwright-report
+          path: test-results/
+          retention-days: 7
+          
+      - name: Generate E2E report
+        if: always()
+        run: |
+          echo "## E2E Test Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "test-results/playwright-results.json" ]; then
+            # Extract test results
+            TOTAL=$(jq -r '.suites | map(.specs | length) | add' test-results/playwright-results.json)
+            PASSED=$(jq -r '[.suites[].specs[].tests[] | select(.status == "passed")] | length' test-results/playwright-results.json)
+            FAILED=$(jq -r '[.suites[].specs[].tests[] | select(.status == "failed")] | length' test-results/playwright-results.json)
+            
+            echo "- **Total Tests**: $TOTAL" >> $GITHUB_STEP_SUMMARY
+            echo "- **Passed**: $PASSED ✅" >> $GITHUB_STEP_SUMMARY
+            echo "- **Failed**: $FAILED ❌" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            if [ "$FAILED" -gt 0 ]; then
+              echo "### Failed Tests" >> $GITHUB_STEP_SUMMARY
+              jq -r '.suites[].specs[].tests[] | select(.status == "failed") | "- " + .title' test-results/playwright-results.json >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+
+  flake-detection:
+    name: Flake Detection
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Run flake detection (3 iterations)
+        run: |
+          echo "## Flake Detection Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          FLAKY_TESTS=""
+          
+          for i in {1..3}; do
+            echo "### Run $i" >> $GITHUB_STEP_SUMMARY
+            
+            if pnpm test 2>&1 | tee test-run-$i.log; then
+              echo "✅ Run $i passed" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "❌ Run $i failed" >> $GITHUB_STEP_SUMMARY
+              FLAKY_TESTS="true"
+            fi
+            echo "" >> $GITHUB_STEP_SUMMARY
+          done
+          
+          if [ "$FLAKY_TESTS" = "true" ]; then
+            echo "⚠️ **Flaky tests detected!** Some test runs failed." >> $GITHUB_STEP_SUMMARY
+            echo "Please review test stability before merging." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ **No flaky tests detected.** All runs passed consistently." >> $GITHUB_STEP_SUMMARY
+          fi
+
+  performance-tests:
+    name: Performance Benchmarks
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Build packages
+        run: pnpm build
+        
+      - name: Run performance benchmarks
+        run: |
+          echo "## Performance Benchmarks" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Run core-sim performance tests
+          cd packages/core-sim
+          npm test 2>&1 | grep -E "(simulation time|Average|performance)" | tee ../../perf-results.txt || true
+          
+          echo "### Core Simulation Performance" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          cat ../../perf-results.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

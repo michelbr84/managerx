@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "ManagerX",
+    "subtitle": "Gerenciador de Futebol"
+  },
+  "navigation": {
+    "menu": "Menu Principal",
+    "newGame": "Novo Jogo",
+    "calendar": "Calendário",
+    "squad": "Elenco",
+    "tactics": "Táticas",
+    "match": "Partida",
+    "inbox": "Mensagens",
+    "scouting": "Scouting",
+    "finances": "Finanças",
+    "settings": "Configurações"
+  },
+  "menu": {
+    "continueGame": "Continuar Jogo",
+    "newGame": "Novo Jogo",
+    "loadGame": "Carregar Jogo",
+    "settings": "Configurações",
+    "exit": "Sair"
+  },
+  "newGame": {
+    "title": "Novo Jogo",
+    "selectClub": "Escolher Clube",
+    "selectLeague": "Escolher Liga",
+    "managerName": "Nome do Técnico",
+    "difficulty": "Dificuldade",
+    "start": "Iniciar Carreira"
+  },
+  "calendar": {
+    "title": "Calendário",
+    "nextMatch": "Próxima Partida",
+    "league": "Campeonato",
+    "cup": "Copa",
+    "training": "Treino",
+    "rest": "Descanso"
+  },
+  "squad": {
+    "title": "Elenco do Clube",
+    "position": "Posição",
+    "name": "Nome",
+    "age": "Idade",
+    "condition": "Condição",
+    "morale": "Moral",
+    "value": "Valor",
+    "wage": "Salário"
+  },
+  "tactics": {
+    "title": "Táticas",
+    "formation": "Formação",
+    "mentality": "Mentalidade",
+    "pressing": "Marcação",
+    "tempo": "Ritmo",
+    "width": "Largura",
+    "save": "Salvar Tática",
+    "load": "Carregar Tática"
+  },
+  "match": {
+    "title": "Partida",
+    "vs": "vs",
+    "home": "Casa",
+    "away": "Fora",
+    "score": "Placar",
+    "time": "Tempo",
+    "events": "Eventos",
+    "stats": "Estatísticas",
+    "fastForward": "Acelerar",
+    "pause": "Pausar"
+  },
+  "inbox": {
+    "title": "Mensagens",
+    "news": "Notícias",
+    "transfers": "Transferências",
+    "injuries": "Lesões",
+    "contracts": "Contratos",
+    "board": "Diretoria"
+  },
+  "scouting": {
+    "title": "Relatórios de Scouting",
+    "player": "Jogador",
+    "club": "Clube",
+    "rating": "Avaliação",
+    "potential": "Potencial",
+    "price": "Preço",
+    "scout": "Observar",
+    "shortlist": "Lista de Interesse"
+  },
+  "assistant": {
+    "title": "Assistente do Clube",
+    "suggestions": "Sugestões",
+    "nextMatch": "Próxima Partida",
+    "teamNews": "Notícias do Time",
+    "transfers": "Transferências",
+    "training": "Treinamento"
+  },
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso"
+  },
+  "shortcuts": {
+    "save": "Ctrl+S",
+    "menu": "Esc",
+    "calendar": "C",
+    "squad": "E",
+    "tactics": "T",
+    "inbox": "I",
+    "scouting": "S"
+  }
+}
