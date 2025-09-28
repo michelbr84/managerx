@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManagerX - O Gerenciador de Futebol Definitivo</title>
+    <meta name="description" content="Reviva a nostalgia do Championship Manager 01/02 com IA moderna. Gerencie seu clube, domine táticas e construa uma dinastia no futebol.">
+    <meta name="keywords" content="futebol, gerenciador, Championship Manager, CM 01/02, táticas, simulação, IA">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ManagerX - O Gerenciador de Futebol Definitivo">
+    <meta property="og:description" content="Nostalgia do CM 01/02 + IA moderna. Táticas profundas, simulação realística, carreira de 10 temporadas.">
+    <meta property="og:image" content="./assets/og-image.png">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ManagerX - O Gerenciador de Futebol Definitivo">
+    <meta name="twitter:description" content="Reviva a nostalgia do CM 01/02 com IA moderna">
+    <meta name="twitter:image" content="./assets/twitter-card.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ff00;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Retro CRT effect */
+        .crt-effect {
+            position: relative;
+        }
+        
+        .crt-effect::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 255, 0, 0.03) 2px,
+                rgba(0, 255, 0, 0.03) 4px
+            );
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #00ff00;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #00ff00;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border: 1px solid transparent;
+        }
+
+        .nav-links a:hover {
+            border-color: #00ff00;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+
+        .lang-toggle {
+            background: none;
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+
+        .lang-toggle:hover {
+            background: rgba(0, 255, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: radial-gradient(circle at center, #001100 0%, #000000 70%);
+            position: relative;
+            padding: 6rem 2rem 2rem;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            margin-bottom: 1rem;
+            text-shadow: 0 0 20px #00ff00;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00ff00; }
+            to { text-shadow: 0 0 30px #00ff00, 0 0 40px #00ff00; }
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .hero-description {
+            font-size: 1rem;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            background: none;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            font-family: inherit;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: rgba(0, 255, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: #00ff00;
+            color: #000000;
+        }
+
+        .btn-primary:hover {
+            background: #00cc00;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
+        }
+
+        /* ASCII Art Background */
+        .ascii-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            font-size: 0.8rem;
+            white-space: pre;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        /* Sections */
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #00ff00;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: rgba(0, 255, 0, 0.05);
+            border: 1px solid rgba(0, 255, 0, 0.3);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            border-color: #00ff00;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        /* ASCII Table Styling */
+        .ascii-table {
+            font-family: 'Courier New', monospace;
+            background: rgba(0, 255, 0, 0.05);
+            padding: 2rem;
+            border: 1px solid rgba(0, 255, 0, 0.3);
+            border-radius: 8px;
+            overflow-x: auto;
+            white-space: pre;
+            margin: 2rem 0;
+        }
+
+        /* Roadmap */
+        .roadmap {
+            background: rgba(0, 255, 0, 0.05);
+            border-left: 4px solid #00ff00;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .roadmap-item {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .roadmap-item::before {
+            content: '▶';
+            position: absolute;
+            left: 0;
+            color: #00ff00;
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: rgba(0, 255, 0, 0.05);
+            border: 1px solid rgba(0, 255, 0, 0.3);
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: #00ff00;
+            font-family: inherit;
+            font-size: 1rem;
+            width: 100%;
+            text-align: left;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: rgba(0, 255, 0, 0.1);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            display: none;
+            opacity: 0.9;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background: #000000;
+            border-top: 1px solid #00ff00;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .hero h1 {
+                font-size: 3rem;
+            }
+        }
+
+        /* Language specific content */
+        [data-lang="en"] { display: none; }
+        .lang-en [data-lang="pt-BR"] { display: none; }
+        .lang-en [data-lang="en"] { display: block; }
+    </style>
+</head>
+<body class="crt-effect">
+    <header>
+        <nav>
+            <div class="logo">ManagerX</div>
+            <ul class="nav-links">
+                <li><a href="#features" data-lang="pt-BR">Features</a><a href="#features" data-lang="en">Features</a></li>
+                <li><a href="#roadmap" data-lang="pt-BR">Roadmap</a><a href="#roadmap" data-lang="en">Roadmap</a></li>
+                <li><a href="#faq" data-lang="pt-BR">FAQ</a><a href="#faq" data-lang="en">FAQ</a></li>
+                <li><a href="#download" data-lang="pt-BR">Download</a><a href="#download" data-lang="en">Download</a></li>
+            </ul>
+            <button class="lang-toggle" onclick="toggleLanguage()">EN / PT-BR</button>
+        </nav>
+    </header>
+
+    <!-- ASCII Background -->
+    <div class="ascii-bg">
+                    ⚽                    🥅                    ⚽
+        🏟️                    ManagerX                    🏟️
+                    ⚽                    🥅                    ⚽
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-lang="pt-BR">ManagerX</h1>
+            <h1 data-lang="en">ManagerX</h1>
+            
+            <p class="hero-subtitle" data-lang="pt-BR">
+                O Gerenciador de Futebol Definitivo
+            </p>
+            <p class="hero-subtitle" data-lang="en">
+                The Ultimate Football Manager
+            </p>
+            
+            <p class="hero-description" data-lang="pt-BR">
+                Reviva a nostalgia do Championship Manager 01/02 com o poder da IA moderna. 
+                Gerencie seu clube dos sonhos, domine táticas complexas e construa uma dinastia 
+                que durará 10 temporadas épicas.
+            </p>
+            <p class="hero-description" data-lang="en">
+                Relive the nostalgia of Championship Manager 01/02 with the power of modern AI. 
+                Manage your dream club, master complex tactics, and build a dynasty that will 
+                last 10 epic seasons.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="#download" class="btn btn-primary" data-lang="pt-BR">
+                    🎮 Jogar Agora (Grátis)
+                </a>
+                <a href="#download" class="btn btn-primary" data-lang="en">
+                    🎮 Play Now (Free)
+                </a>
+                
+                <a href="#features" class="btn" data-lang="pt-BR">
+                    📖 Conhecer Features
+                </a>
+                <a href="#features" class="btn" data-lang="en">
+                    📖 Learn Features
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision">
+        <h2 data-lang="pt-BR">Visão</h2>
+        <h2 data-lang="en">Vision</h2>
+        
+        <div data-lang="pt-BR">
+            <p style="font-size: 1.2rem; text-align: center; margin-bottom: 3rem; opacity: 0.9;">
+                ManagerX combina a profundidade e nostalgia do Championship Manager 01/02 
+                com uma camada de IA moderna para assistência inteligente, análise tática 
+                e narrativa dinâmica.
+            </p>
+            
+            <div class="ascii-table">
+┌─────────────────────────────────────────────────────────────────┐
+│                        MANAGERX CORE                           │
+├─────────────────────────────────────────────────────────────────┤
+│ ⚽ Nostalgia CM 01/02    │ 🤖 IA Moderna                        │
+│   • Atributos 1-20      │   • Recomendações táticas            │
+│   • Interface texto     │   • Scouting inteligente             │
+│   • Profundidade        │   • Narrativa dinâmica               │
+│   • Ritmo rápido        │   • Explicabilidade                  │
+├─────────────────────────────────────────────────────────────────┤
+│ 🏆 6 Ligas Fictícias    │ ⚡ Performance Offline               │
+│   • ~200 Clubes         │   • Carregar/salvar rápido           │
+│   • 10 Temporadas       │   • Simular temporadas em minutos    │
+│   • Dados fictícios     │   • Zero dependência de rede         │
+└─────────────────────────────────────────────────────────────────┘
+            </div>
+        </div>
+        
+        <div data-lang="en">
+            <p style="font-size: 1.2rem; text-align: center; margin-bottom: 3rem; opacity: 0.9;">
+                ManagerX combines the depth and nostalgia of Championship Manager 01/02 
+                with a modern AI layer for intelligent assistance, tactical analysis, 
+                and dynamic storytelling.
+            </p>
+            
+            <div class="ascii-table">
+┌─────────────────────────────────────────────────────────────────┐
+│                        MANAGERX CORE                           │
+├─────────────────────────────────────────────────────────────────┤
+│ ⚽ CM 01/02 Nostalgia    │ 🤖 Modern AI                         │
+│   • 1-20 Attributes     │   • Tactical recommendations         │
+│   • Text interface      │   • Intelligent scouting             │
+│   • Deep gameplay       │   • Dynamic narrative                │
+│   • Fast-paced          │   • Explainable AI                   │
+├─────────────────────────────────────────────────────────────────┤
+│ 🏆 6 Fictional Leagues  │ ⚡ Offline Performance               │
+│   • ~200 Clubs          │   • Fast load/save                   │
+│   • 10 Seasons          │   • Simulate seasons in minutes      │
+│   • Fictional data      │   • Zero network dependency          │
+└─────────────────────────────────────────────────────────────────┘
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2 data-lang="pt-BR">Features Principais</h2>
+        <h2 data-lang="en">Core Features</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">🎯</span>
+                <h3 data-lang="pt-BR">Táticas Profundas</h3>
+                <h3 data-lang="en">Deep Tactics</h3>
+                <p data-lang="pt-BR">
+                    3 formações clássicas (4-4-2, 4-3-3, 3-5-2) com instruções detalhadas. 
+                    Sistema tático que realmente impacta o resultado das partidas.
+                </p>
+                <p data-lang="en">
+                    3 classic formations (4-4-2, 4-3-3, 3-5-2) with detailed instructions. 
+                    Tactical system that truly impacts match results.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🤖</span>
+                <h3 data-lang="pt-BR">Assistente IA</h3>
+                <h3 data-lang="en">AI Assistant</h3>
+                <p data-lang="pt-BR">
+                    IA que sugere escalações, substituições e alvos de mercado. 
+                    Explicações claras para cada recomendação.
+                </p>
+                <p data-lang="en">
+                    AI that suggests lineups, substitutions, and transfer targets. 
+                    Clear explanations for every recommendation.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🔍</span>
+                <h3 data-lang="pt-BR">Scouting Inteligente</h3>
+                <h3 data-lang="en">Smart Scouting</h3>
+                <p data-lang="pt-BR">
+                    Rede de olheiros com IA que recomenda jogadores baseado em suas táticas 
+                    e necessidades do elenco. Relatórios detalhados com incerteza realística.
+                </p>
+                <p data-lang="en">
+                    Scout network with AI that recommends players based on your tactics 
+                    and squad needs. Detailed reports with realistic uncertainty.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">⚡</span>
+                <h3 data-lang="pt-BR">Simulação Realística</h3>
+                <h3 data-lang="en">Realistic Simulation</h3>
+                <p data-lang="pt-BR">
+                    Motor determinístico que simula 90 minutos em segundos. 
+                    xG, stamina, condições climáticas e momentum afetam cada partida.
+                </p>
+                <p data-lang="en">
+                    Deterministic engine that simulates 90 minutes in seconds. 
+                    xG, stamina, weather conditions, and momentum affect every match.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">📚</span>
+                <h3 data-lang="pt-BR">Narrativa Dinâmica</h3>
+                <h3 data-lang="en">Dynamic Storytelling</h3>
+                <p data-lang="pt-BR">
+                    Eventos que reagem ao seu desempenho. Lesões, conflitos no vestiário, 
+                    pressão da diretoria e marcos de carreira únicos.
+                </p>
+                <p data-lang="en">
+                    Events that react to your performance. Injuries, dressing room conflicts, 
+                    board pressure, and unique career milestones.
+                </p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🏆</span>
+                <h3 data-lang="pt-BR">Carreira Épica</h3>
+                <h3 data-lang="en">Epic Career</h3>
+                <p data-lang="pt-BR">
+                    10 temporadas completas, 6 ligas fictícias, ~200 clubes. 
+                    Construa sua dinastia do zero até a glória continental.
+                </p>
+                <p data-lang="en">
+                    10 complete seasons, 6 fictional leagues, ~200 clubs. 
+                    Build your dynasty from zero to continental glory.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap">
+        <h2 data-lang="pt-BR">Roadmap de Desenvolvimento</h2>
+        <h2 data-lang="en">Development Roadmap</h2>
+        
+        <div class="roadmap" data-lang="pt-BR">
+            <h3>🚀 Versão 0.1 (Atual) - Fundações</h3>
+            <div class="roadmap-item">✅ Motor de simulação determinístico</div>
+            <div class="roadmap-item">✅ Editor tático com 3 formações</div>
+            <div class="roadmap-item">✅ Sistema de scouting básico</div>
+            <div class="roadmap-item">✅ 6 ligas fictícias completas</div>
+            
+            <h3>⏳ Versão 0.2 (4 semanas) - IA e Narrativa</h3>
+            <div class="roadmap-item">🤖 Assistente IA completo</div>
+            <div class="roadmap-item">📖 Sistema de narrativa dinâmica</div>
+            <div class="roadmap-item">🔍 Scouting com recomendações IA</div>
+            <div class="roadmap-item">📊 Analytics e telemetria opt-in</div>
+            
+            <h3>🔮 Versão 0.3 (8 semanas) - Polimento</h3>
+            <div class="roadmap-item">🏆 Copas nacionais</div>
+            <div class="roadmap-item">💰 Sistema financeiro avançado</div>
+            <div class="roadmap-item">🌍 Regras especiais por liga</div>
+            <div class="roadmap-item">⌨️ Navegação completa por teclado</div>
+            
+            <h3>🎯 Versão 1.0 (12 semanas) - Lançamento</h3>
+            <div class="roadmap-item">🎮 Desktop executável (Windows/Mac/Linux)</div>
+            <div class="roadmap-item">📱 Versão mobile (opcional)</div>
+            <div class="roadmap-item">🌐 Localização completa (PT-BR/EN/ES)</div>
+            <div class="roadmap-item">🏪 Distribuição Steam/GOG</div>
+        </div>
+        
+        <div class="roadmap" data-lang="en">
+            <h3>🚀 Version 0.1 (Current) - Foundations</h3>
+            <div class="roadmap-item">✅ Deterministic simulation engine</div>
+            <div class="roadmap-item">✅ Tactical editor with 3 formations</div>
+            <div class="roadmap-item">✅ Basic scouting system</div>
+            <div class="roadmap-item">✅ 6 complete fictional leagues</div>
+            
+            <h3>⏳ Version 0.2 (4 weeks) - AI and Narrative</h3>
+            <div class="roadmap-item">🤖 Complete AI assistant</div>
+            <div class="roadmap-item">📖 Dynamic narrative system</div>
+            <div class="roadmap-item">🔍 AI-powered scouting recommendations</div>
+            <div class="roadmap-item">📊 Opt-in analytics and telemetry</div>
+            
+            <h3>🔮 Version 0.3 (8 weeks) - Polish</h3>
+            <div class="roadmap-item">🏆 National cups</div>
+            <div class="roadmap-item">💰 Advanced financial system</div>
+            <div class="roadmap-item">🌍 League-specific rules</div>
+            <div class="roadmap-item">⌨️ Complete keyboard navigation</div>
+            
+            <h3>🎯 Version 1.0 (12 weeks) - Launch</h3>
+            <div class="roadmap-item">🎮 Desktop executable (Windows/Mac/Linux)</div>
+            <div class="roadmap-item">📱 Mobile version (optional)</div>
+            <div class="roadmap-item">🌐 Full localization (PT-BR/EN/ES)</div>
+            <div class="roadmap-item">🏪 Steam/GOG distribution</div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2 data-lang="pt-BR">Perguntas Frequentes</h2>
+        <h2 data-lang="en">Frequently Asked Questions</h2>
+        
+        <div data-lang="pt-BR">
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    🎮 O ManagerX é gratuito?
+                </button>
+                <div class="faq-answer">
+                    Sim! O ManagerX será totalmente gratuito durante o desenvolvimento e beta. 
+                    Planejamos manter uma versão gratuita robusta mesmo após o lançamento oficial.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    🤖 Como a IA funciona no jogo?
+                </button>
+                <div class="faq-answer">
+                    A IA atua como seu assistente pessoal, sugerindo escalações, substituições, 
+                    alvos de transferência e ajustes táticos. Todas as sugestões vêm com 
+                    explicações claras sobre o "porquê" da recomendação.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    ⚽ Por que usar dados fictícios?
+                </button>
+                <div class="faq-answer">
+                    Dados fictícios nos permitem criar um universo balanceado e livre de 
+                    questões de licenciamento. Você pode focar na estratégia pura sem 
+                    preconceitos sobre jogadores reais.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    💻 Em que plataformas roda?
+                </button>
+                <div class="faq-answer">
+                    ManagerX roda nativamente no Windows, macOS e Linux através do Tauri. 
+                    Planejamos distribuição via Steam, GOG e download direto.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    🔒 Meus dados estão seguros?
+                </button>
+                <div class="faq-answer">
+                    Absolutamente. O ManagerX funciona 100% offline após instalação. 
+                    Telemetria é opt-in, anonimizada e você controla todos os seus dados.
+                </div>
+            </div>
+        </div>
+        
+        <div data-lang="en">
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    🎮 Is ManagerX free?
+                </button>
+                <div class="faq-answer">
+                    Yes! ManagerX will be completely free during development and beta. 
+                    We plan to maintain a robust free version even after official launch.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    🤖 How does the AI work in the game?
+                </button>
+                <div class="faq-answer">
+                    The AI acts as your personal assistant, suggesting lineups, substitutions, 
+                    transfer targets, and tactical adjustments. All suggestions come with 
+                    clear explanations about the "why" behind each recommendation.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    ⚽ Why use fictional data?
+                </button>
+                <div class="faq-answer">
+                    Fictional data allows us to create a balanced universe free from 
+                    licensing issues. You can focus on pure strategy without biases 
+                    about real players.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    💻 What platforms does it run on?
+                </button>
+                <div class="faq-answer">
+                    ManagerX runs natively on Windows, macOS, and Linux through Tauri. 
+                    We plan distribution via Steam, GOG, and direct download.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    🔒 Is my data safe?
+                </button>
+                <div class="faq-answer">
+                    Absolutely. ManagerX works 100% offline after installation. 
+                    Telemetry is opt-in, anonymized, and you control all your data.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download">
+        <h2 data-lang="pt-BR">Baixar ManagerX</h2>
+        <h2 data-lang="en">Download ManagerX</h2>
+        
+        <div style="text-align: center;">
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;" data-lang="pt-BR">
+                🚧 Em desenvolvimento - Beta disponível em breve
+            </p>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;" data-lang="en">
+                🚧 In development - Beta available soon
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="https://github.com/michelbr84/managerx" class="btn btn-primary" data-lang="pt-BR">
+                    📂 Ver no GitHub
+                </a>
+                <a href="https://github.com/michelbr84/managerx" class="btn btn-primary" data-lang="en">
+                    📂 View on GitHub
+                </a>
+                
+                <a href="mailto:notify@managerx.dev" class="btn" data-lang="pt-BR">
+                    📧 Notificar Lançamento
+                </a>
+                <a href="mailto:notify@managerx.dev" class="btn" data-lang="en">
+                    📧 Notify Launch
+                </a>
+            </div>
+            
+            <div class="ascii-table" style="margin-top: 3rem;">
+┌─────────────────────────────────────────────────────────────────┐
+│                    REQUISITOS DO SISTEMA                       │
+├─────────────────────────────────────────────────────────────────┤
+│ 🖥️ Windows 10+ / macOS 10.15+ / Linux (Ubuntu 20.04+)         │
+│ 💾 4 GB RAM mínimo (8 GB recomendado)                          │
+│ 💿 500 MB espaço livre                                         │
+│ ⚡ Processador dual-core 2.0 GHz+                              │
+│ 🌐 Conexão apenas para download inicial                        │
+└─────────────────────────────────────────────────────────────────┘
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p data-lang="pt-BR">
+            © 2024 ManagerX - Desenvolvido com ❤️ para fãs de gerenciadores de futebol
+        </p>
+        <p data-lang="en">
+            © 2024 ManagerX - Made with ❤️ for football management fans
+        </p>
+        <p style="margin-top: 1rem; opacity: 0.7;">
+            <a href="https://github.com/michelbr84/managerx" style="color: #00ff00;">GitHub</a> | 
+            <a href="#" style="color: #00ff00;" data-lang="pt-BR">Privacidade</a>
+            <a href="#" style="color: #00ff00;" data-lang="en">Privacy</a> | 
+            <a href="#" style="color: #00ff00;" data-lang="pt-BR">Termos</a>
+            <a href="#" style="color: #00ff00;" data-lang="en">Terms</a>
+        </p>
+    </footer>
+
+    <script>
+        let currentLang = 'pt-BR';
+        
+        function toggleLanguage() {
+            currentLang = currentLang === 'pt-BR' ? 'en' : 'pt-BR';
+            document.body.className = currentLang === 'en' ? 'crt-effect lang-en' : 'crt-effect';
+        }
+        
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const isActive = answer.classList.contains('active');
+            
+            // Close all FAQ answers
+            document.querySelectorAll('.faq-answer').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Toggle current answer
+            if (!isActive) {
+                answer.classList.add('active');
+            }
+        }
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Add typing effect to hero title
+        function typeWriter(element, text, speed = 100) {
+            let i = 0;
+            element.innerHTML = '';
+            
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            
+            type();
+        }
+        
+        // Initialize typing effect when page loads
+        window.addEventListener('load', () => {
+            const heroTitle = document.querySelector('.hero h1');
+            if (heroTitle) {
+                typeWriter(heroTitle, 'ManagerX', 150);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!-- Steam Library Hero: 1920x620px -->
+<svg width="1920" height="620" viewBox="0 0 1920 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="libraryBg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" style="stop-color:#003300;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#001100;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    <filter id="libraryGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="libraryGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ff00" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="620" fill="url(#libraryBg)"/>
+  <rect width="1920" height="620" fill="url(#libraryGrid)"/>
+  
+  <!-- Central composition -->
+  <g transform="translate(960, 310)">
+    <!-- Main title -->
+    <text x="0" y="-80" text-anchor="middle" font-family="Courier New, monospace" font-size="120" font-weight="bold" fill="#00ff00" filter="url(#libraryGlow)">
+      ManagerX
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="-30" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#00ff00" opacity="0.9">
+      The Ultimate Football Management Experience
+    </text>
+    
+    <!-- Feature showcase -->
+    <g transform="translate(-400, 40)">
+      <text x="0" y="0" font-family="Courier New, monospace" font-size="24" fill="#00ff00">
+        🎯 Championship Manager 01/02 Nostalgia
+      </text>
+      <text x="0" y="40" font-family="Courier New, monospace" font-size="24" fill="#00ff00">
+        🤖 Modern AI Assistant Integration
+      </text>
+      <text x="0" y="80" font-family="Courier New, monospace" font-size="24" fill="#00ff00">
+        ⚡ Deterministic Simulation Engine
+      </text>
+    </g>
+    
+    <g transform="translate(100, 40)">
+      <text x="0" y="0" font-family="Courier New, monospace" font-size="24" fill="#00ff00">
+        🏆 6 Leagues • 200+ Clubs
+      </text>
+      <text x="0" y="40" font-family="Courier New, monospace" font-size="24" fill="#00ff00">
+        📊 Deep Analytics & xG
+      </text>
+      <text x="0" y="80" font-family="Courier New, monospace" font-size="24" fill="#00ff00">
+        🔒 100% Offline Experience
+      </text>
+    </g>
+  </g>
+  
+  <!-- Tactical field visualization -->
+  <g transform="translate(1400, 200)" opacity="0.6">
+    <!-- Field -->
+    <rect x="0" y="0" width="200" height="140" fill="rgba(0,255,0,0.1)" stroke="#00ff00" stroke-width="2"/>
+    <!-- Center circle -->
+    <circle cx="100" cy="70" r="25" fill="none" stroke="#00ff00" stroke-width="2"/>
+    <!-- Center line -->
+    <line x1="100" y1="0" x2="100" y2="140" stroke="#00ff00" stroke-width="2"/>
+    <!-- Penalty areas -->
+    <rect x="0" y="35" width="40" height="70" fill="none" stroke="#00ff00" stroke-width="1"/>
+    <rect x="160" y="35" width="40" height="70" fill="none" stroke="#00ff00" stroke-width="1"/>
+    
+    <!-- 4-4-2 Formation -->
+    <!-- GK -->
+    <circle cx="20" cy="70" r="4" fill="#00ff00"/>
+    <!-- Defense -->
+    <circle cx="60" cy="35" r="4" fill="#00ff00"/>
+    <circle cx="60" cy="55" r="4" fill="#00ff00"/>
+    <circle cx="60" cy="85" r="4" fill="#00ff00"/>
+    <circle cx="60" cy="105" r="4" fill="#00ff00"/>
+    <!-- Midfield -->
+    <circle cx="100" cy="35" r="4" fill="#00ff00"/>
+    <circle cx="100" cy="55" r="4" fill="#00ff00"/>
+    <circle cx="100" cy="85" r="4" fill="#00ff00"/>
+    <circle cx="100" cy="105" r="4" fill="#00ff00"/>
+    <!-- Attack -->
+    <circle cx="140" cy="55" r="4" fill="#00ff00"/>
+    <circle cx="140" cy="85" r="4" fill="#00ff00"/>
+  </g>
+  
+  <!-- Corner decorations -->
+  <g transform="translate(50, 50)" opacity="0.3">
+    <text font-family="Courier New, monospace" font-size="20" fill="#00ff00">
+      ┌─────────────────┐
+      │ TACTICAL DEPTH  │
+      └─────────────────┘
+    </text>
+  </g>
+  
+  <g transform="translate(1400, 50)" opacity="0.3">
+    <text font-family="Courier New, monospace" font-size="20" fill="#00ff00">
+      ┌─────────────────┐
+      │   AI POWERED    │
+      └─────────────────┘
+    </text>
+  </g>
+  
+  <!-- Version indicator -->
+  <g transform="translate(1750, 550)">
+    <rect x="0" y="0" width="120" height="30" fill="rgba(0,255,0,0.1)" stroke="#00ff00" stroke-width="1"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Courier New, monospace" font-size="14" fill="#00ff00">
+      BETA v0.1
+    </text>
+  </g>
+</svg>

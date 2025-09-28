@@ -1,0 +1,16 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <rect width="16" height="16" fill="#000000"/>
+  
+  <!-- Simplified M logo for small size -->
+  <g fill="#00ff00">
+    <!-- Left pillar -->
+    <rect x="2" y="3" width="2" height="10"/>
+    <!-- Right pillar -->
+    <rect x="12" y="3" width="2" height="10"/>
+    <!-- Center peak -->
+    <polygon points="4,3 8,7 12,3 10,3 8,5 6,3"/>
+  </g>
+  
+  <!-- Small football -->
+  <circle cx="8" cy="14" r="1" fill="#00ff00"/>
+</svg>
