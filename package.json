@@ -24,7 +24,9 @@
     "dev": "pnpm -C apps/desktop dev",
     "release": "semantic-release",
     "content:validate": "pnpm -C packages/content content:validate",
-    "content:generate": "pnpm -C packages/content content:generate"
+    "content:generate": "pnpm -C packages/content content:generate",
+    "analytics:dashboard": "pnpm -C packages/analytics analytics:dashboard",
+    "analytics:tune": "pnpm -C packages/analytics analytics:tune"
   },
   "pnpm": {
     "packageExtensions": {

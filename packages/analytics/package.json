@@ -1,0 +1,25 @@
+{
+  "name": "@managerx/analytics",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0",
+    "test": "vitest run",
+    "analytics:dashboard": "tsx src/scripts/generate-dashboard.ts",
+    "analytics:tune": "tsx src/scripts/auto-tune.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.1",
+    "tsx": "^4.7.1"
+  }
+}

@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@managerx/analytics": "workspace:*",
     "@managerx/content": "workspace:*",
     "@managerx/core-sim": "workspace:*",
     "@managerx/db": "workspace:*",
