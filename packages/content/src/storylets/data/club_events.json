@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ST-0101",
+    "title": "Pressão da Diretoria",
+    "category": "club_news",
+    "content": "A diretoria do clube expressou preocupações sobre os resultados recentes. Eles esperam uma melhoria significativa nas próximas partidas para manter a confiança no trabalho técnico.",
+    "conditions": [
+      {
+        "type": "team_performance",
+        "operator": "<",
+        "value": 40,
+        "weight": 1.0
+      },
+      {
+        "type": "board_pressure",
+        "operator": ">",
+        "value": 60,
+        "weight": 0.8
+      }
+    ],
+    "choices": [
+      {
+        "id": "promise_improvement",
+        "text": "Prometer melhoria nos resultados",
+        "effects": [
+          {
+            "type": "board_confidence",
+            "value": 5,
+            "duration": 14,
+            "description": "Diretoria dá mais tempo"
+          }
+        ],
+        "weight": 0.7
+      },
+      {
+        "id": "request_support",
+        "text": "Solicitar apoio para contratações",
+        "effects": [
+          {
+            "type": "finance",
+            "value": 2000000,
+            "description": "Verba extra para transferências"
+          },
+          {
+            "type": "board_confidence",
+            "value": -5,
+            "description": "Diretoria questiona competência"
+          }
+        ],
+        "weight": 0.5
+      },
+      {
+        "id": "defend_philosophy",
+        "text": "Defender filosofia de jogo atual",
+        "effects": [
+          {
+            "type": "media_attention",
+            "value": 15,
+            "description": "Mídia destaca posicionamento"
+          },
+          {
+            "type": "fan_loyalty",
+            "value": 10,
+            "description": "Torcida aprecia honestidade"
+          }
+        ],
+        "weight": 0.4
+      }
+    ],
+    "priority": "high",
+    "cooldown": 21,
+    "maxOccurrences": 2,
+    "tags": ["board", "pressure", "results"]
+  },
+  {
+    "id": "ST-0102",
+    "title": "Interesse de Clube Maior",
+    "category": "transfer_news",
+    "content": "Um clube de maior expressão demonstrou interesse em contratar você como técnico. A proposta inclui salário significativamente maior e orçamento para contratações.",
+    "conditions": [
+      {
+        "type": "team_performance",
+        "operator": ">",
+        "value": 70,
+        "weight": 1.0
+      },
+      {
+        "type": "random",
+        "operator": "<",
+        "value": 15,
+        "weight": 0.6
+      }
+    ],
+    "choices": [
+      {
+        "id": "accept_offer",
+        "text": "Aceitar a proposta",
+        "effects": [
+          {
+            "type": "reputation",
+            "value": 20,
+            "description": "Reputação como técnico aumenta"
+          }
+        ],
+        "weight": 0.3
+      },
+      {
+        "id": "negotiate_terms",
+        "text": "Negociar melhores condições",
+        "effects": [
+          {
+            "type": "board_confidence",
+            "value": -10,
+            "description": "Diretoria fica desconfiada"
+          }
+        ],
+        "weight": 0.4
+      },
+      {
+        "id": "decline_loyalty",
+        "text": "Recusar por lealdade ao clube",
+        "effects": [
+          {
+            "type": "fan_loyalty",
+            "value": 25,
+            "description": "Torcida demonstra gratidão"
+          },
+          {
+            "type": "board_confidence",
+            "value": 15,
+            "description": "Diretoria valoriza lealdade"
+          }
+        ],
+        "weight": 0.8
+      }
+    ],
+    "priority": "critical",
+    "cooldown": 90,
+    "maxOccurrences": 1,
+    "tags": ["career", "loyalty", "opportunity"]
+  },
+  {
+    "id": "ST-0103",
+    "title": "Problema no Vestiário",
+    "category": "club_news",
+    "content": "Houve uma discussão acalorada entre dois jogadores importantes durante o treino. A situação está afetando o ambiente do vestiário e pode impactar o desempenho da equipe.",
+    "conditions": [
+      {
+        "type": "team_performance",
+        "operator": "<",
+        "value": 50,
+        "weight": 0.8
+      },
+      {
+        "type": "random",
+        "operator": "<",
+        "value": 20,
+        "weight": 1.0
+      }
+    ],
+    "choices": [
+      {
+        "id": "team_meeting",
+        "text": "Convocar reunião de equipe",
+        "effects": [
+          {
+            "type": "morale_change",
+            "value": 5,
+            "description": "Moral da equipe melhora"
+          }
+        ],
+        "weight": 0.7
+      },
+      {
+        "id": "individual_talks",
+        "text": "Conversar individualmente com os jogadores",
+        "effects": [
+          {
+            "type": "morale_change",
+            "target": "PLY-001",
+            "value": 8,
+            "description": "Jogadores envolvidos se acalmam"
+          },
+          {
+            "type": "morale_change",
+            "target": "PLY-002",
+            "value": 8,
+            "description": "Situação é resolvida discretamente"
+          }
+        ],
+        "weight": 0.8
+      },
+      {
+        "id": "ignore_situation",
+        "text": "Deixar que se resolvam sozinhos",
+        "effects": [
+          {
+            "type": "morale_change",
+            "value": -3,
+            "duration": 7,
+            "description": "Tensão persiste no vestiário"
+          }
+        ],
+        "weight": 0.2
+      }
+    ],
+    "priority": "medium",
+    "cooldown": 30,
+    "maxOccurrences": 3,
+    "tags": ["team", "conflict", "morale"]
+  }
+]

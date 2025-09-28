@@ -1,0 +1,216 @@
+[
+  {
+    "id": "ST-0001",
+    "title": "Jogador em Forma Excepcional",
+    "category": "player_news",
+    "content": "O atacante {player} tem se destacado nos treinos e demonstrado excelente forma física. Sua confiança está em alta e ele pode ser uma peça-chave nas próximas partidas.",
+    "conditions": [
+      {
+        "type": "player_form",
+        "target": "PLY-001",
+        "operator": ">=",
+        "value": 85,
+        "weight": 1.0
+      },
+      {
+        "type": "random",
+        "operator": "<",
+        "value": 30,
+        "weight": 0.8
+      }
+    ],
+    "choices": [
+      {
+        "id": "praise",
+        "text": "Elogiar o jogador publicamente",
+        "effects": [
+          {
+            "type": "morale_change",
+            "target": "PLY-001",
+            "value": 5,
+            "description": "Moral do jogador aumenta"
+          },
+          {
+            "type": "media_attention",
+            "value": 10,
+            "description": "Atenção da mídia aumenta"
+          }
+        ],
+        "weight": 0.8
+      },
+      {
+        "id": "private_encouragement",
+        "text": "Conversar privately com o jogador",
+        "effects": [
+          {
+            "type": "morale_change",
+            "target": "PLY-001",
+            "value": 3,
+            "description": "Moral do jogador aumenta ligeiramente"
+          }
+        ],
+        "weight": 0.6
+      },
+      {
+        "id": "ignore",
+        "text": "Manter o foco no trabalho",
+        "effects": [],
+        "weight": 0.3
+      }
+    ],
+    "priority": "medium",
+    "cooldown": 14,
+    "maxOccurrences": 3,
+    "tags": ["player", "positive", "form"]
+  },
+  {
+    "id": "ST-0002",
+    "title": "Jogador Insatisfeito com Salário",
+    "category": "player_news",
+    "content": "O meio-campista {player} expressou preocupações sobre seu salário atual. Ele sente que merece uma valorização após suas performances recentes.",
+    "conditions": [
+      {
+        "type": "player_form",
+        "target": "PLY-002",
+        "operator": ">=",
+        "value": 75,
+        "weight": 1.0
+      },
+      {
+        "type": "financial",
+        "operator": ">",
+        "value": 5000000,
+        "weight": 0.7
+      }
+    ],
+    "choices": [
+      {
+        "id": "negotiate_raise",
+        "text": "Negociar aumento salarial",
+        "effects": [
+          {
+            "type": "morale_change",
+            "target": "PLY-002",
+            "value": 10,
+            "description": "Jogador fica satisfeito"
+          },
+          {
+            "type": "finance",
+            "value": -50000,
+            "description": "Aumento nos custos mensais"
+          }
+        ],
+        "requirements": [
+          {
+            "type": "financial",
+            "operator": ">",
+            "value": 8000000,
+            "weight": 1.0
+          }
+        ],
+        "weight": 0.7
+      },
+      {
+        "id": "promise_future",
+        "text": "Prometer revisão no futuro",
+        "effects": [
+          {
+            "type": "morale_change",
+            "target": "PLY-002",
+            "value": 2,
+            "duration": 30,
+            "description": "Satisfação temporária"
+          }
+        ],
+        "weight": 0.5
+      },
+      {
+        "id": "refuse",
+        "text": "Recusar o pedido",
+        "effects": [
+          {
+            "type": "morale_change",
+            "target": "PLY-002",
+            "value": -8,
+            "description": "Jogador fica insatisfeito"
+          }
+        ],
+        "weight": 0.2
+      }
+    ],
+    "priority": "high",
+    "cooldown": 60,
+    "maxOccurrences": 1,
+    "tags": ["player", "contract", "morale"]
+  },
+  {
+    "id": "ST-0003",
+    "title": "Lesão Durante o Treino",
+    "category": "player_news",
+    "content": "O zagueiro {player} sofreu uma lesão no joelho durante o treino de hoje. O departamento médico está avaliando a gravidade da lesão.",
+    "conditions": [
+      {
+        "type": "random",
+        "operator": "<",
+        "value": 5,
+        "weight": 1.0
+      }
+    ],
+    "choices": [
+      {
+        "id": "intensive_treatment",
+        "text": "Investir em tratamento intensivo",
+        "effects": [
+          {
+            "type": "injury",
+            "target": "PLY-003",
+            "value": 14,
+            "description": "Lesão de 2 semanas"
+          },
+          {
+            "type": "finance",
+            "value": -25000,
+            "description": "Custo do tratamento"
+          }
+        ],
+        "weight": 0.8
+      },
+      {
+        "id": "standard_treatment",
+        "text": "Seguir protocolo padrão",
+        "effects": [
+          {
+            "type": "injury",
+            "target": "PLY-003",
+            "value": 21,
+            "description": "Lesão de 3 semanas"
+          }
+        ],
+        "weight": 0.6
+      },
+      {
+        "id": "rush_back",
+        "text": "Tentar retorno rápido",
+        "effects": [
+          {
+            "type": "injury",
+            "target": "PLY-003",
+            "value": 7,
+            "description": "Retorno em 1 semana"
+          },
+          {
+            "type": "injury",
+            "target": "PLY-003",
+            "value": 35,
+            "description": "Risco de lesão mais grave"
+          }
+        ],
+        "weight": 0.2
+      }
+    ],
+    "priority": "high",
+    "cooldown": 30,
+    "maxOccurrences": 5,
+    "tags": ["player", "injury", "medical"]
+  }
+]

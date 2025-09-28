@@ -1,0 +1,285 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2024-09-28T11:34:00.000Z",
+  "seed": 42,
+  "leagues": [
+    {
+      "id": "LEA-A",
+      "name": "AlbionX Premier League",
+      "nationality": "ALX",
+      "divisions": [
+        {
+          "name": "AlbionX-D1",
+          "level": 1,
+          "teams": 18,
+          "promotion": 0,
+          "relegation": 3,
+          "playoffs": 0
+        },
+        {
+          "name": "AlbionX-D2",
+          "level": 2,
+          "teams": 16,
+          "promotion": 3,
+          "relegation": 0,
+          "playoffs": 4
+        }
+      ],
+      "cupName": "ALX Cup"
+    },
+    {
+      "id": "LEA-B",
+      "name": "LusitaniaX Liga",
+      "nationality": "LUX",
+      "divisions": [
+        {
+          "name": "LusitaniaX-D1",
+          "level": 1,
+          "teams": 18,
+          "promotion": 0,
+          "relegation": 3,
+          "playoffs": 0
+        },
+        {
+          "name": "LusitaniaX-D2",
+          "level": 2,
+          "teams": 16,
+          "promotion": 3,
+          "relegation": 0,
+          "playoffs": 4
+        }
+      ],
+      "cupName": "LUX Cup"
+    },
+    {
+      "id": "LEA-C",
+      "name": "CaledoniaX Championship",
+      "nationality": "CAL",
+      "divisions": [
+        {
+          "name": "CaledoniaX-D1",
+          "level": 1,
+          "teams": 18,
+          "promotion": 0,
+          "relegation": 3,
+          "playoffs": 0
+        },
+        {
+          "name": "CaledoniaX-D2",
+          "level": 2,
+          "teams": 16,
+          "promotion": 3,
+          "relegation": 0,
+          "playoffs": 4
+        }
+      ],
+      "cupName": "CAL Cup"
+    },
+    {
+      "id": "LEA-D",
+      "name": "IberiaX Primera",
+      "nationality": "IBE",
+      "divisions": [
+        {
+          "name": "IberiaX-D1",
+          "level": 1,
+          "teams": 18,
+          "promotion": 0,
+          "relegation": 3,
+          "playoffs": 0
+        },
+        {
+          "name": "IberiaX-D2",
+          "level": 2,
+          "teams": 16,
+          "promotion": 3,
+          "relegation": 0,
+          "playoffs": 4
+        }
+      ],
+      "cupName": "IBE Cup"
+    },
+    {
+      "id": "LEA-E",
+      "name": "ItalicaX Serie A",
+      "nationality": "ITA",
+      "divisions": [
+        {
+          "name": "ItalicaX-D1",
+          "level": 1,
+          "teams": 18,
+          "promotion": 0,
+          "relegation": 3,
+          "playoffs": 0
+        },
+        {
+          "name": "ItalicaX-D2",
+          "level": 2,
+          "teams": 16,
+          "promotion": 3,
+          "relegation": 0,
+          "playoffs": 4
+        }
+      ],
+      "cupName": "ITA Cup",
+      "foreignerRule": {
+        "maxOnPitch": 5,
+        "division": "D1"
+      }
+    },
+    {
+      "id": "LEA-F",
+      "name": "GermanicaX Bundesliga",
+      "nationality": "GER",
+      "divisions": [
+        {
+          "name": "GermanicaX-D1",
+          "level": 1,
+          "teams": 18,
+          "promotion": 0,
+          "relegation": 3,
+          "playoffs": 0
+        },
+        {
+          "name": "GermanicaX-D2",
+          "level": 2,
+          "teams": 16,
+          "promotion": 3,
+          "relegation": 0,
+          "playoffs": 4
+        }
+      ],
+      "cupName": "GER Cup"
+    }
+  ],
+  "clubs": [
+    {
+      "id": "CLB-0001",
+      "name": "AlbionX FC",
+      "shortName": "ALX FC",
+      "nationality": "ALX",
+      "division": "AlbionX-D1",
+      "budget": 15000000,
+      "reputation": 85,
+      "stadium": {
+        "name": "AlbionX Stadium",
+        "capacity": 45000
+      }
+    },
+    {
+      "id": "CLB-0002",
+      "name": "United AlbionX",
+      "shortName": "Utd ALX",
+      "nationality": "ALX",
+      "division": "AlbionX-D1",
+      "budget": 20000000,
+      "reputation": 90,
+      "stadium": {
+        "name": "United Stadium",
+        "capacity": 55000
+      }
+    }
+  ],
+  "players": [
+    {
+      "id": "PLY-000001",
+      "clubId": "CLB-0001",
+      "name": "João Silva",
+      "age": 21,
+      "nationality": "ALX",
+      "position": "ST",
+      "foot": "R",
+      "attributes": {
+        "finishing": 16,
+        "firstTouch": 14,
+        "dribbling": 15,
+        "technique": 13,
+        "crossing": 10,
+        "passing": 12,
+        "heading": 12,
+        "tackling": 8,
+        "pace": 17,
+        "acceleration": 16,
+        "agility": 15,
+        "balance": 14,
+        "strength": 13,
+        "stamina": 15,
+        "jumpingReach": 12,
+        "decisions": 14,
+        "anticipation": 13,
+        "positioning": 15,
+        "offTheBall": 16,
+        "vision": 12,
+        "workRate": 14,
+        "bravery": 13,
+        "composure": 14,
+        "determination": 15
+      },
+      "ca": 125,
+      "pa": 165,
+      "morale": 72,
+      "condition": 94,
+      "contract": {
+        "wage": 8500,
+        "expires": "2028-06-30",
+        "releaseClause": 20000000
+      }
+    }
+  ],
+  "staff": [
+    {
+      "id": "STF-0001",
+      "clubId": "CLB-0001",
+      "name": "Roberto Martinez",
+      "age": 45,
+      "nationality": "ALX",
+      "role": "Manager",
+      "attributes": {
+        "tacticalKnowledge": 16,
+        "trainingAttack": 15,
+        "trainingDefense": 14,
+        "setPieces": 13,
+        "manManagement": 17,
+        "motivation": 16,
+        "discipline": 15,
+        "adaptability": 14,
+        "judgingAbility": 15,
+        "judgingPotential": 14,
+        "negotiating": 13
+      },
+      "contract": {
+        "wage": 15000,
+        "expires": "2026-06-30"
+      }
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "FX-000001",
+      "season": 2025,
+      "competition": "AlbionX-D1",
+      "round": 1,
+      "date": "2024-08-10",
+      "homeClubId": "CLB-0001",
+      "awayClubId": "CLB-0002",
+      "played": false
+    }
+  ],
+  "season": {
+    "year": 2025,
+    "startDate": "2024-08-01",
+    "endDate": "2025-05-31",
+    "transferWindows": [
+      {
+        "name": "Summer",
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      {
+        "name": "Winter",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-31"
+      }
+    ]
+  }
+}
