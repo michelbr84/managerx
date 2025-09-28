@@ -1,17 +1,111 @@
 {
-  "branches": ["main"],
+  "branches": [
+    "main",
+    {
+      "name": "beta",
+      "prerelease": true
+    },
+    {
+      "name": "alpha",
+      "prerelease": true
+    }
+  ],
   "plugins": [
-    ["@semantic-release/commit-analyzer", { "preset": "conventionalcommits" }],
-    ["@semantic-release/release-notes-generator", { "preset": "conventionalcommits" }],
-    ["@semantic-release/changelog", { "changelogFile": "CHANGELOG.md" }],
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          { "type": "feat", "release": "minor" },
+          { "type": "fix", "release": "patch" },
+          { "type": "perf", "release": "patch" },
+          { "type": "revert", "release": "patch" },
+          { "type": "docs", "scope": "README", "release": "patch" },
+          { "type": "style", "release": false },
+          { "type": "chore", "release": false },
+          { "type": "refactor", "release": "patch" },
+          { "type": "test", "release": false },
+          { "type": "build", "release": false },
+          { "type": "ci", "release": false },
+          { "breaking": true, "release": "major" },
+          { "revert": true, "release": "patch" }
+        ],
+        "parserOpts": {
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+        }
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits",
+        "presetConfig": {
+          "types": [
+            { "type": "feat", "section": "✨ Features", "hidden": false },
+            { "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },
+            { "type": "perf", "section": "⚡ Performance", "hidden": false },
+            { "type": "revert", "section": "⏪ Reverts", "hidden": false },
+            { "type": "docs", "section": "📚 Documentation", "hidden": false },
+            { "type": "style", "section": "🎨 Styles", "hidden": true },
+            { "type": "chore", "section": "🔧 Chores", "hidden": true },
+            { "type": "refactor", "section": "♻️ Refactoring", "hidden": false },
+            { "type": "test", "section": "✅ Tests", "hidden": true },
+            { "type": "build", "section": "📦 Build", "hidden": true },
+            { "type": "ci", "section": "👷 CI", "hidden": true }
+          ]
+        },
+        "writerOpts": {
+          "commitsSort": ["subject", "scope"]
+        }
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)."
+      }
+    ],
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "node scripts/update-version.js ${nextRelease.version} && node scripts/generate-release-notes.js ${nextRelease.version}",
+        "publishCmd": "echo 'Version ${nextRelease.version} released!'"
+      }
+    ],
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md"],
+        "assets": [
+          "CHANGELOG.md",
+          "package.json",
+          "pnpm-lock.yaml",
+          "apps/desktop/package.json",
+          "apps/desktop/src-tauri/Cargo.toml",
+          "apps/desktop/src-tauri/tauri.conf.json",
+          "packages/*/package.json",
+          "docs/RELEASE_NOTES/*.md"
+        ],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
-    ["@semantic-release/github"]
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "dist/*.zip",
+            "label": "Desktop App (${name})"
+          }
+        ],
+        "successComment": "🎉 This PR is included in version ${nextRelease.version} 🎉\n\nThe release is available on [GitHub release](../releases/tag/v${nextRelease.version})\n\nYour **semantic-release** bot 📦🚀"
+      }
+    ]
   ]
 }
-
