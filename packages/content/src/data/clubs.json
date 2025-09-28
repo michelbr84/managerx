@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "A-01",
+    "name": "Liga A Clube 01",
+    "shortName": "A01",
+    "leagueId": "A",
+    "strength": 62
+  },
+  {
+    "id": "A-02",
+    "name": "Liga A Clube 02",
+    "shortName": "A02",
+    "leagueId": "A",
+    "strength": 60
+  },
+  {
+    "id": "A-03",
+    "name": "Liga A Clube 03",
+    "shortName": "A03",
+    "leagueId": "A",
+    "strength": 70
+  },
+  {
+    "id": "A-04",
+    "name": "Liga A Clube 04",
+    "shortName": "A04",
+    "leagueId": "A",
+    "strength": 67
+  },
+  {
+    "id": "A-05",
+    "name": "Liga A Clube 05",
+    "shortName": "A05",
+    "leagueId": "A",
+    "strength": 45
+  },
+  {
+    "id": "A-06",
+    "name": "Liga A Clube 06",
+    "shortName": "A06",
+    "leagueId": "A",
+    "strength": 58
+  },
+  {
+    "id": "A-07",
+    "name": "Liga A Clube 07",
+    "shortName": "A07",
+    "leagueId": "A",
+    "strength": 66
+  },
+  {
+    "id": "A-08",
+    "name": "Liga A Clube 08",
+    "shortName": "A08",
+    "leagueId": "A",
+    "strength": 64
+  },
+  {
+    "id": "A-09",
+    "name": "Liga A Clube 09",
+    "shortName": "A09",
+    "leagueId": "A",
+    "strength": 45
+  },
+  {
+    "id": "A-10",
+    "name": "Liga A Clube 10",
+    "shortName": "A10",
+    "leagueId": "A",
+    "strength": 48
+  },
+  {
+    "id": "A-11",
+    "name": "Liga A Clube 11",
+    "shortName": "A11",
+    "leagueId": "A",
+    "strength": 54
+  },
+  {
+    "id": "A-12",
+    "name": "Liga A Clube 12",
+    "shortName": "A12",
+    "leagueId": "A",
+    "strength": 41
+  },
+  {
+    "id": "A-13",
+    "name": "Liga A Clube 13",
+    "shortName": "A13",
+    "leagueId": "A",
+    "strength": 64
+  },
+  {
+    "id": "A-14",
+    "name": "Liga A Clube 14",
+    "shortName": "A14",
+    "leagueId": "A",
+    "strength": 65
+  },
+  {
+    "id": "A-15",
+    "name": "Liga A Clube 15",
+    "shortName": "A15",
+    "leagueId": "A",
+    "strength": 52
+  },
+  {
+    "id": "A-16",
+    "name": "Liga A Clube 16",
+    "shortName": "A16",
+    "leagueId": "A",
+    "strength": 46
+  },
+  {
+    "id": "A-17",
+    "name": "Liga A Clube 17",
+    "shortName": "A17",
+    "leagueId": "A",
+    "strength": 66
+  },
+  {
+    "id": "A-18",
+    "name": "Liga A Clube 18",
+    "shortName": "A18",
+    "leagueId": "A",
+    "strength": 45
+  },
+  {
+    "id": "A-19",
+    "name": "Liga A Clube 19",
+    "shortName": "A19",
+    "leagueId": "A",
+    "strength": 47
+  },
+  {
+    "id": "A-20",
+    "name": "Liga A Clube 20",
+    "shortName": "A20",
+    "leagueId": "A",
+    "strength": 66
+  },
+  {
+    "id": "A-21",
+    "name": "Liga A Clube 21",
+    "shortName": "A21",
+    "leagueId": "A",
+    "strength": 49
+  },
+  {
+    "id": "A-22",
+    "name": "Liga A Clube 22",
+    "shortName": "A22",
+    "leagueId": "A",
+    "strength": 43
+  },
+  {
+    "id": "A-23",
+    "name": "Liga A Clube 23",
+    "shortName": "A23",
+    "leagueId": "A",
+    "strength": 70
+  },
+  {
+    "id": "A-24",
+    "name": "Liga A Clube 24",
+    "shortName": "A24",
+    "leagueId": "A",
+    "strength": 42
+  },
+  {
+    "id": "A-25",
+    "name": "Liga A Clube 25",
+    "shortName": "A25",
+    "leagueId": "A",
+    "strength": 68
+  },
+  {
+    "id": "A-26",
+    "name": "Liga A Clube 26",
+    "shortName": "A26",
+    "leagueId": "A",
+    "strength": 41
+  },
+  {
+    "id": "A-27",
+    "name": "Liga A Clube 27",
+    "shortName": "A27",
+    "leagueId": "A",
+    "strength": 44
+  },
+  {
+    "id": "A-28",
+    "name": "Liga A Clube 28",
+    "shortName": "A28",
+    "leagueId": "A",
+    "strength": 54
+  },
+  {
+    "id": "A-29",
+    "name": "Liga A Clube 29",
+    "shortName": "A29",
+    "leagueId": "A",
+    "strength": 66
+  },
+  {
+    "id": "A-30",
+    "name": "Liga A Clube 30",
+    "shortName": "A30",
+    "leagueId": "A",
+    "strength": 42
+  },
+  {
+    "id": "A-31",
+    "name": "Liga A Clube 31",
+    "shortName": "A31",
+    "leagueId": "A",
+    "strength": 59
+  },
+  {
+    "id": "A-32",
+    "name": "Liga A Clube 32",
+    "shortName": "A32",
+    "leagueId": "A",
+    "strength": 58
+  },
+  {
+    "id": "A-33",
+    "name": "Liga A Clube 33",
+    "shortName": "A33",
+    "leagueId": "A",
+    "strength": 51
+  },
+  {
+    "id": "A-34",
+    "name": "Liga A Clube 34",
+    "shortName": "A34",
+    "leagueId": "A",
+    "strength": 51
+  },
+  {
+    "id": "B-01",
+    "name": "Liga B Clube 01",
+    "shortName": "B01",
+    "leagueId": "B",
+    "strength": 56
+  },
+  {
+    "id": "B-02",
+    "name": "Liga B Clube 02",
+    "shortName": "B02",
+    "leagueId": "B",
+    "strength": 54
+  },
+  {
+    "id": "B-03",
+    "name": "Liga B Clube 03",
+    "shortName": "B03",
+    "leagueId": "B",
+    "strength": 44
+  },
+  {
+    "id": "B-04",
+    "name": "Liga B Clube 04",
+    "shortName": "B04",
+    "leagueId": "B",
+    "strength": 49
+  },
+  {
+    "id": "B-05",
+    "name": "Liga B Clube 05",
+    "shortName": "B05",
+    "leagueId": "B",
+    "strength": 63
+  },
+  {
+    "id": "B-06",
+    "name": "Liga B Clube 06",
+    "shortName": "B06",
+    "leagueId": "B",
+    "strength": 51
+  },
+  {
+    "id": "B-07",
+    "name": "Liga B Clube 07",
+    "shortName": "B07",
+    "leagueId": "B",
+    "strength": 56
+  },
+  {
+    "id": "B-08",
+    "name": "Liga B Clube 08",
+    "shortName": "B08",
+    "leagueId": "B",
+    "strength": 41
+  },
+  {
+    "id": "B-09",
+    "name": "Liga B Clube 09",
+    "shortName": "B09",
+    "leagueId": "B",
+    "strength": 46
+  },
+  {
+    "id": "B-10",
+    "name": "Liga B Clube 10",
+    "shortName": "B10",
+    "leagueId": "B",
+    "strength": 55
+  },
+  {
+    "id": "B-11",
+    "name": "Liga B Clube 11",
+    "shortName": "B11",
+    "leagueId": "B",
+    "strength": 57
+  },
+  {
+    "id": "B-12",
+    "name": "Liga B Clube 12",
+    "shortName": "B12",
+    "leagueId": "B",
+    "strength": 59
+  },
+  {
+    "id": "B-13",
+    "name": "Liga B Clube 13",
+    "shortName": "B13",
+    "leagueId": "B",
+    "strength": 50
+  },
+  {
+    "id": "B-14",
+    "name": "Liga B Clube 14",
+    "shortName": "B14",
+    "leagueId": "B",
+    "strength": 48
+  },
+  {
+    "id": "B-15",
+    "name": "Liga B Clube 15",
+    "shortName": "B15",
+    "leagueId": "B",
+    "strength": 45
+  },
+  {
+    "id": "B-16",
+    "name": "Liga B Clube 16",
+    "shortName": "B16",
+    "leagueId": "B",
+    "strength": 44
+  },
+  {
+    "id": "B-17",
+    "name": "Liga B Clube 17",
+    "shortName": "B17",
+    "leagueId": "B",
+    "strength": 41
+  },
+  {
+    "id": "B-18",
+    "name": "Liga B Clube 18",
+    "shortName": "B18",
+    "leagueId": "B",
+    "strength": 62
+  },
+  {
+    "id": "B-19",
+    "name": "Liga B Clube 19",
+    "shortName": "B19",
+    "leagueId": "B",
+    "strength": 42
+  },
+  {
+    "id": "B-20",
+    "name": "Liga B Clube 20",
+    "shortName": "B20",
+    "leagueId": "B",
+    "strength": 41
+  },
+  {
+    "id": "B-21",
+    "name": "Liga B Clube 21",
+    "shortName": "B21",
+    "leagueId": "B",
+    "strength": 66
+  },
+  {
+    "id": "B-22",
+    "name": "Liga B Clube 22",
+    "shortName": "B22",
+    "leagueId": "B",
+    "strength": 41
+  },
+  {
+    "id": "B-23",
+    "name": "Liga B Clube 23",
+    "shortName": "B23",
+    "leagueId": "B",
+    "strength": 68
+  },
+  {
+    "id": "B-24",
+    "name": "Liga B Clube 24",
+    "shortName": "B24",
+    "leagueId": "B",
+    "strength": 58
+  },
+  {
+    "id": "B-25",
+    "name": "Liga B Clube 25",
+    "shortName": "B25",
+    "leagueId": "B",
+    "strength": 47
+  },
+  {
+    "id": "B-26",
+    "name": "Liga B Clube 26",
+    "shortName": "B26",
+    "leagueId": "B",
+    "strength": 43
+  },
+  {
+    "id": "B-27",
+    "name": "Liga B Clube 27",
+    "shortName": "B27",
+    "leagueId": "B",
+    "strength": 68
+  },
+  {
+    "id": "B-28",
+    "name": "Liga B Clube 28",
+    "shortName": "B28",
+    "leagueId": "B",
+    "strength": 48
+  },
+  {
+    "id": "B-29",
+    "name": "Liga B Clube 29",
+    "shortName": "B29",
+    "leagueId": "B",
+    "strength": 46
+  },
+  {
+    "id": "B-30",
+    "name": "Liga B Clube 30",
+    "shortName": "B30",
+    "leagueId": "B",
+    "strength": 55
+  },
+  {
+    "id": "B-31",
+    "name": "Liga B Clube 31",
+    "shortName": "B31",
+    "leagueId": "B",
+    "strength": 55
+  },
+  {
+    "id": "B-32",
+    "name": "Liga B Clube 32",
+    "shortName": "B32",
+    "leagueId": "B",
+    "strength": 69
+  },
+  {
+    "id": "B-33",
+    "name": "Liga B Clube 33",
+    "shortName": "B33",
+    "leagueId": "B",
+    "strength": 53
+  },
+  {
+    "id": "B-34",
+    "name": "Liga B Clube 34",
+    "shortName": "B34",
+    "leagueId": "B",
+    "strength": 59
+  },
+  {
+    "id": "C-01",
+    "name": "Liga C Clube 01",
+    "shortName": "C01",
+    "leagueId": "C",
+    "strength": 47
+  },
+  {
+    "id": "C-02",
+    "name": "Liga C Clube 02",
+    "shortName": "C02",
+    "leagueId": "C",
+    "strength": 44
+  },
+  {
+    "id": "C-03",
+    "name": "Liga C Clube 03",
+    "shortName": "C03",
+    "leagueId": "C",
+    "strength": 68
+  },
+  {
+    "id": "C-04",
+    "name": "Liga C Clube 04",
+    "shortName": "C04",
+    "leagueId": "C",
+    "strength": 54
+  },
+  {
+    "id": "C-05",
+    "name": "Liga C Clube 05",
+    "shortName": "C05",
+    "leagueId": "C",
+    "strength": 55
+  },
+  {
+    "id": "C-06",
+    "name": "Liga C Clube 06",
+    "shortName": "C06",
+    "leagueId": "C",
+    "strength": 65
+  },
+  {
+    "id": "C-07",
+    "name": "Liga C Clube 07",
+    "shortName": "C07",
+    "leagueId": "C",
+    "strength": 41
+  },
+  {
+    "id": "C-08",
+    "name": "Liga C Clube 08",
+    "shortName": "C08",
+    "leagueId": "C",
+    "strength": 66
+  },
+  {
+    "id": "C-09",
+    "name": "Liga C Clube 09",
+    "shortName": "C09",
+    "leagueId": "C",
+    "strength": 50
+  },
+  {
+    "id": "C-10",
+    "name": "Liga C Clube 10",
+    "shortName": "C10",
+    "leagueId": "C",
+    "strength": 48
+  },
+  {
+    "id": "C-11",
+    "name": "Liga C Clube 11",
+    "shortName": "C11",
+    "leagueId": "C",
+    "strength": 47
+  },
+  {
+    "id": "C-12",
+    "name": "Liga C Clube 12",
+    "shortName": "C12",
+    "leagueId": "C",
+    "strength": 64
+  },
+  {
+    "id": "C-13",
+    "name": "Liga C Clube 13",
+    "shortName": "C13",
+    "leagueId": "C",
+    "strength": 53
+  },
+  {
+    "id": "C-14",
+    "name": "Liga C Clube 14",
+    "shortName": "C14",
+    "leagueId": "C",
+    "strength": 65
+  },
+  {
+    "id": "C-15",
+    "name": "Liga C Clube 15",
+    "shortName": "C15",
+    "leagueId": "C",
+    "strength": 65
+  },
+  {
+    "id": "C-16",
+    "name": "Liga C Clube 16",
+    "shortName": "C16",
+    "leagueId": "C",
+    "strength": 66
+  },
+  {
+    "id": "C-17",
+    "name": "Liga C Clube 17",
+    "shortName": "C17",
+    "leagueId": "C",
+    "strength": 51
+  },
+  {
+    "id": "C-18",
+    "name": "Liga C Clube 18",
+    "shortName": "C18",
+    "leagueId": "C",
+    "strength": 41
+  },
+  {
+    "id": "C-19",
+    "name": "Liga C Clube 19",
+    "shortName": "C19",
+    "leagueId": "C",
+    "strength": 60
+  },
+  {
+    "id": "C-20",
+    "name": "Liga C Clube 20",
+    "shortName": "C20",
+    "leagueId": "C",
+    "strength": 47
+  },
+  {
+    "id": "C-21",
+    "name": "Liga C Clube 21",
+    "shortName": "C21",
+    "leagueId": "C",
+    "strength": 62
+  },
+  {
+    "id": "C-22",
+    "name": "Liga C Clube 22",
+    "shortName": "C22",
+    "leagueId": "C",
+    "strength": 46
+  },
+  {
+    "id": "C-23",
+    "name": "Liga C Clube 23",
+    "shortName": "C23",
+    "leagueId": "C",
+    "strength": 64
+  },
+  {
+    "id": "C-24",
+    "name": "Liga C Clube 24",
+    "shortName": "C24",
+    "leagueId": "C",
+    "strength": 52
+  },
+  {
+    "id": "C-25",
+    "name": "Liga C Clube 25",
+    "shortName": "C25",
+    "leagueId": "C",
+    "strength": 53
+  },
+  {
+    "id": "C-26",
+    "name": "Liga C Clube 26",
+    "shortName": "C26",
+    "leagueId": "C",
+    "strength": 47
+  },
+  {
+    "id": "C-27",
+    "name": "Liga C Clube 27",
+    "shortName": "C27",
+    "leagueId": "C",
+    "strength": 47
+  },
+  {
+    "id": "C-28",
+    "name": "Liga C Clube 28",
+    "shortName": "C28",
+    "leagueId": "C",
+    "strength": 42
+  },
+  {
+    "id": "C-29",
+    "name": "Liga C Clube 29",
+    "shortName": "C29",
+    "leagueId": "C",
+    "strength": 50
+  },
+  {
+    "id": "C-30",
+    "name": "Liga C Clube 30",
+    "shortName": "C30",
+    "leagueId": "C",
+    "strength": 42
+  },
+  {
+    "id": "C-31",
+    "name": "Liga C Clube 31",
+    "shortName": "C31",
+    "leagueId": "C",
+    "strength": 53
+  },
+  {
+    "id": "C-32",
+    "name": "Liga C Clube 32",
+    "shortName": "C32",
+    "leagueId": "C",
+    "strength": 41
+  },
+  {
+    "id": "C-33",
+    "name": "Liga C Clube 33",
+    "shortName": "C33",
+    "leagueId": "C",
+    "strength": 55
+  },
+  {
+    "id": "C-34",
+    "name": "Liga C Clube 34",
+    "shortName": "C34",
+    "leagueId": "C",
+    "strength": 51
+  },
+  {
+    "id": "D-01",
+    "name": "Liga D Clube 01",
+    "shortName": "D01",
+    "leagueId": "D",
+    "strength": 50
+  },
+  {
+    "id": "D-02",
+    "name": "Liga D Clube 02",
+    "shortName": "D02",
+    "leagueId": "D",
+    "strength": 48
+  },
+  {
+    "id": "D-03",
+    "name": "Liga D Clube 03",
+    "shortName": "D03",
+    "leagueId": "D",
+    "strength": 65
+  },
+  {
+    "id": "D-04",
+    "name": "Liga D Clube 04",
+    "shortName": "D04",
+    "leagueId": "D",
+    "strength": 63
+  },
+  {
+    "id": "D-05",
+    "name": "Liga D Clube 05",
+    "shortName": "D05",
+    "leagueId": "D",
+    "strength": 55
+  },
+  {
+    "id": "D-06",
+    "name": "Liga D Clube 06",
+    "shortName": "D06",
+    "leagueId": "D",
+    "strength": 64
+  },
+  {
+    "id": "D-07",
+    "name": "Liga D Clube 07",
+    "shortName": "D07",
+    "leagueId": "D",
+    "strength": 42
+  },
+  {
+    "id": "D-08",
+    "name": "Liga D Clube 08",
+    "shortName": "D08",
+    "leagueId": "D",
+    "strength": 61
+  },
+  {
+    "id": "D-09",
+    "name": "Liga D Clube 09",
+    "shortName": "D09",
+    "leagueId": "D",
+    "strength": 46
+  },
+  {
+    "id": "D-10",
+    "name": "Liga D Clube 10",
+    "shortName": "D10",
+    "leagueId": "D",
+    "strength": 53
+  },
+  {
+    "id": "D-11",
+    "name": "Liga D Clube 11",
+    "shortName": "D11",
+    "leagueId": "D",
+    "strength": 54
+  },
+  {
+    "id": "D-12",
+    "name": "Liga D Clube 12",
+    "shortName": "D12",
+    "leagueId": "D",
+    "strength": 67
+  },
+  {
+    "id": "D-13",
+    "name": "Liga D Clube 13",
+    "shortName": "D13",
+    "leagueId": "D",
+    "strength": 47
+  },
+  {
+    "id": "D-14",
+    "name": "Liga D Clube 14",
+    "shortName": "D14",
+    "leagueId": "D",
+    "strength": 69
+  },
+  {
+    "id": "D-15",
+    "name": "Liga D Clube 15",
+    "shortName": "D15",
+    "leagueId": "D",
+    "strength": 62
+  },
+  {
+    "id": "D-16",
+    "name": "Liga D Clube 16",
+    "shortName": "D16",
+    "leagueId": "D",
+    "strength": 61
+  },
+  {
+    "id": "D-17",
+    "name": "Liga D Clube 17",
+    "shortName": "D17",
+    "leagueId": "D",
+    "strength": 64
+  },
+  {
+    "id": "D-18",
+    "name": "Liga D Clube 18",
+    "shortName": "D18",
+    "leagueId": "D",
+    "strength": 51
+  },
+  {
+    "id": "D-19",
+    "name": "Liga D Clube 19",
+    "shortName": "D19",
+    "leagueId": "D",
+    "strength": 49
+  },
+  {
+    "id": "D-20",
+    "name": "Liga D Clube 20",
+    "shortName": "D20",
+    "leagueId": "D",
+    "strength": 52
+  },
+  {
+    "id": "D-21",
+    "name": "Liga D Clube 21",
+    "shortName": "D21",
+    "leagueId": "D",
+    "strength": 51
+  },
+  {
+    "id": "D-22",
+    "name": "Liga D Clube 22",
+    "shortName": "D22",
+    "leagueId": "D",
+    "strength": 51
+  },
+  {
+    "id": "D-23",
+    "name": "Liga D Clube 23",
+    "shortName": "D23",
+    "leagueId": "D",
+    "strength": 57
+  },
+  {
+    "id": "D-24",
+    "name": "Liga D Clube 24",
+    "shortName": "D24",
+    "leagueId": "D",
+    "strength": 54
+  },
+  {
+    "id": "D-25",
+    "name": "Liga D Clube 25",
+    "shortName": "D25",
+    "leagueId": "D",
+    "strength": 61
+  },
+  {
+    "id": "D-26",
+    "name": "Liga D Clube 26",
+    "shortName": "D26",
+    "leagueId": "D",
+    "strength": 47
+  },
+  {
+    "id": "D-27",
+    "name": "Liga D Clube 27",
+    "shortName": "D27",
+    "leagueId": "D",
+    "strength": 66
+  },
+  {
+    "id": "D-28",
+    "name": "Liga D Clube 28",
+    "shortName": "D28",
+    "leagueId": "D",
+    "strength": 52
+  },
+  {
+    "id": "D-29",
+    "name": "Liga D Clube 29",
+    "shortName": "D29",
+    "leagueId": "D",
+    "strength": 51
+  },
+  {
+    "id": "D-30",
+    "name": "Liga D Clube 30",
+    "shortName": "D30",
+    "leagueId": "D",
+    "strength": 53
+  },
+  {
+    "id": "D-31",
+    "name": "Liga D Clube 31",
+    "shortName": "D31",
+    "leagueId": "D",
+    "strength": 52
+  },
+  {
+    "id": "D-32",
+    "name": "Liga D Clube 32",
+    "shortName": "D32",
+    "leagueId": "D",
+    "strength": 61
+  },
+  {
+    "id": "D-33",
+    "name": "Liga D Clube 33",
+    "shortName": "D33",
+    "leagueId": "D",
+    "strength": 48
+  },
+  {
+    "id": "D-34",
+    "name": "Liga D Clube 34",
+    "shortName": "D34",
+    "leagueId": "D",
+    "strength": 52
+  },
+  {
+    "id": "E-01",
+    "name": "Liga E Clube 01",
+    "shortName": "E01",
+    "leagueId": "E",
+    "strength": 62
+  },
+  {
+    "id": "E-02",
+    "name": "Liga E Clube 02",
+    "shortName": "E02",
+    "leagueId": "E",
+    "strength": 64
+  },
+  {
+    "id": "E-03",
+    "name": "Liga E Clube 03",
+    "shortName": "E03",
+    "leagueId": "E",
+    "strength": 44
+  },
+  {
+    "id": "E-04",
+    "name": "Liga E Clube 04",
+    "shortName": "E04",
+    "leagueId": "E",
+    "strength": 58
+  },
+  {
+    "id": "E-05",
+    "name": "Liga E Clube 05",
+    "shortName": "E05",
+    "leagueId": "E",
+    "strength": 46
+  },
+  {
+    "id": "E-06",
+    "name": "Liga E Clube 06",
+    "shortName": "E06",
+    "leagueId": "E",
+    "strength": 42
+  },
+  {
+    "id": "E-07",
+    "name": "Liga E Clube 07",
+    "shortName": "E07",
+    "leagueId": "E",
+    "strength": 46
+  },
+  {
+    "id": "E-08",
+    "name": "Liga E Clube 08",
+    "shortName": "E08",
+    "leagueId": "E",
+    "strength": 59
+  },
+  {
+    "id": "E-09",
+    "name": "Liga E Clube 09",
+    "shortName": "E09",
+    "leagueId": "E",
+    "strength": 43
+  },
+  {
+    "id": "E-10",
+    "name": "Liga E Clube 10",
+    "shortName": "E10",
+    "leagueId": "E",
+    "strength": 61
+  },
+  {
+    "id": "E-11",
+    "name": "Liga E Clube 11",
+    "shortName": "E11",
+    "leagueId": "E",
+    "strength": 70
+  },
+  {
+    "id": "E-12",
+    "name": "Liga E Clube 12",
+    "shortName": "E12",
+    "leagueId": "E",
+    "strength": 47
+  },
+  {
+    "id": "E-13",
+    "name": "Liga E Clube 13",
+    "shortName": "E13",
+    "leagueId": "E",
+    "strength": 41
+  },
+  {
+    "id": "E-14",
+    "name": "Liga E Clube 14",
+    "shortName": "E14",
+    "leagueId": "E",
+    "strength": 43
+  },
+  {
+    "id": "E-15",
+    "name": "Liga E Clube 15",
+    "shortName": "E15",
+    "leagueId": "E",
+    "strength": 60
+  },
+  {
+    "id": "E-16",
+    "name": "Liga E Clube 16",
+    "shortName": "E16",
+    "leagueId": "E",
+    "strength": 48
+  },
+  {
+    "id": "E-17",
+    "name": "Liga E Clube 17",
+    "shortName": "E17",
+    "leagueId": "E",
+    "strength": 66
+  },
+  {
+    "id": "E-18",
+    "name": "Liga E Clube 18",
+    "shortName": "E18",
+    "leagueId": "E",
+    "strength": 69
+  },
+  {
+    "id": "E-19",
+    "name": "Liga E Clube 19",
+    "shortName": "E19",
+    "leagueId": "E",
+    "strength": 44
+  },
+  {
+    "id": "E-20",
+    "name": "Liga E Clube 20",
+    "shortName": "E20",
+    "leagueId": "E",
+    "strength": 58
+  },
+  {
+    "id": "E-21",
+    "name": "Liga E Clube 21",
+    "shortName": "E21",
+    "leagueId": "E",
+    "strength": 49
+  },
+  {
+    "id": "E-22",
+    "name": "Liga E Clube 22",
+    "shortName": "E22",
+    "leagueId": "E",
+    "strength": 51
+  },
+  {
+    "id": "E-23",
+    "name": "Liga E Clube 23",
+    "shortName": "E23",
+    "leagueId": "E",
+    "strength": 45
+  },
+  {
+    "id": "E-24",
+    "name": "Liga E Clube 24",
+    "shortName": "E24",
+    "leagueId": "E",
+    "strength": 43
+  },
+  {
+    "id": "E-25",
+    "name": "Liga E Clube 25",
+    "shortName": "E25",
+    "leagueId": "E",
+    "strength": 51
+  },
+  {
+    "id": "E-26",
+    "name": "Liga E Clube 26",
+    "shortName": "E26",
+    "leagueId": "E",
+    "strength": 56
+  },
+  {
+    "id": "E-27",
+    "name": "Liga E Clube 27",
+    "shortName": "E27",
+    "leagueId": "E",
+    "strength": 60
+  },
+  {
+    "id": "E-28",
+    "name": "Liga E Clube 28",
+    "shortName": "E28",
+    "leagueId": "E",
+    "strength": 63
+  },
+  {
+    "id": "E-29",
+    "name": "Liga E Clube 29",
+    "shortName": "E29",
+    "leagueId": "E",
+    "strength": 63
+  },
+  {
+    "id": "E-30",
+    "name": "Liga E Clube 30",
+    "shortName": "E30",
+    "leagueId": "E",
+    "strength": 69
+  },
+  {
+    "id": "E-31",
+    "name": "Liga E Clube 31",
+    "shortName": "E31",
+    "leagueId": "E",
+    "strength": 50
+  },
+  {
+    "id": "E-32",
+    "name": "Liga E Clube 32",
+    "shortName": "E32",
+    "leagueId": "E",
+    "strength": 46
+  },
+  {
+    "id": "F-01",
+    "name": "Liga F Clube 01",
+    "shortName": "F01",
+    "leagueId": "F",
+    "strength": 49
+  },
+  {
+    "id": "F-02",
+    "name": "Liga F Clube 02",
+    "shortName": "F02",
+    "leagueId": "F",
+    "strength": 46
+  },
+  {
+    "id": "F-03",
+    "name": "Liga F Clube 03",
+    "shortName": "F03",
+    "leagueId": "F",
+    "strength": 44
+  },
+  {
+    "id": "F-04",
+    "name": "Liga F Clube 04",
+    "shortName": "F04",
+    "leagueId": "F",
+    "strength": 53
+  },
+  {
+    "id": "F-05",
+    "name": "Liga F Clube 05",
+    "shortName": "F05",
+    "leagueId": "F",
+    "strength": 49
+  },
+  {
+    "id": "F-06",
+    "name": "Liga F Clube 06",
+    "shortName": "F06",
+    "leagueId": "F",
+    "strength": 48
+  },
+  {
+    "id": "F-07",
+    "name": "Liga F Clube 07",
+    "shortName": "F07",
+    "leagueId": "F",
+    "strength": 45
+  },
+  {
+    "id": "F-08",
+    "name": "Liga F Clube 08",
+    "shortName": "F08",
+    "leagueId": "F",
+    "strength": 64
+  },
+  {
+    "id": "F-09",
+    "name": "Liga F Clube 09",
+    "shortName": "F09",
+    "leagueId": "F",
+    "strength": 69
+  },
+  {
+    "id": "F-10",
+    "name": "Liga F Clube 10",
+    "shortName": "F10",
+    "leagueId": "F",
+    "strength": 54
+  },
+  {
+    "id": "F-11",
+    "name": "Liga F Clube 11",
+    "shortName": "F11",
+    "leagueId": "F",
+    "strength": 56
+  },
+  {
+    "id": "F-12",
+    "name": "Liga F Clube 12",
+    "shortName": "F12",
+    "leagueId": "F",
+    "strength": 42
+  },
+  {
+    "id": "F-13",
+    "name": "Liga F Clube 13",
+    "shortName": "F13",
+    "leagueId": "F",
+    "strength": 69
+  },
+  {
+    "id": "F-14",
+    "name": "Liga F Clube 14",
+    "shortName": "F14",
+    "leagueId": "F",
+    "strength": 43
+  },
+  {
+    "id": "F-15",
+    "name": "Liga F Clube 15",
+    "shortName": "F15",
+    "leagueId": "F",
+    "strength": 62
+  },
+  {
+    "id": "F-16",
+    "name": "Liga F Clube 16",
+    "shortName": "F16",
+    "leagueId": "F",
+    "strength": 46
+  },
+  {
+    "id": "F-17",
+    "name": "Liga F Clube 17",
+    "shortName": "F17",
+    "leagueId": "F",
+    "strength": 57
+  },
+  {
+    "id": "F-18",
+    "name": "Liga F Clube 18",
+    "shortName": "F18",
+    "leagueId": "F",
+    "strength": 43
+  },
+  {
+    "id": "F-19",
+    "name": "Liga F Clube 19",
+    "shortName": "F19",
+    "leagueId": "F",
+    "strength": 50
+  },
+  {
+    "id": "F-20",
+    "name": "Liga F Clube 20",
+    "shortName": "F20",
+    "leagueId": "F",
+    "strength": 66
+  },
+  {
+    "id": "F-21",
+    "name": "Liga F Clube 21",
+    "shortName": "F21",
+    "leagueId": "F",
+    "strength": 67
+  },
+  {
+    "id": "F-22",
+    "name": "Liga F Clube 22",
+    "shortName": "F22",
+    "leagueId": "F",
+    "strength": 41
+  },
+  {
+    "id": "F-23",
+    "name": "Liga F Clube 23",
+    "shortName": "F23",
+    "leagueId": "F",
+    "strength": 41
+  },
+  {
+    "id": "F-24",
+    "name": "Liga F Clube 24",
+    "shortName": "F24",
+    "leagueId": "F",
+    "strength": 54
+  },
+  {
+    "id": "F-25",
+    "name": "Liga F Clube 25",
+    "shortName": "F25",
+    "leagueId": "F",
+    "strength": 50
+  },
+  {
+    "id": "F-26",
+    "name": "Liga F Clube 26",
+    "shortName": "F26",
+    "leagueId": "F",
+    "strength": 61
+  },
+  {
+    "id": "F-27",
+    "name": "Liga F Clube 27",
+    "shortName": "F27",
+    "leagueId": "F",
+    "strength": 56
+  },
+  {
+    "id": "F-28",
+    "name": "Liga F Clube 28",
+    "shortName": "F28",
+    "leagueId": "F",
+    "strength": 47
+  },
+  {
+    "id": "F-29",
+    "name": "Liga F Clube 29",
+    "shortName": "F29",
+    "leagueId": "F",
+    "strength": 44
+  },
+  {
+    "id": "F-30",
+    "name": "Liga F Clube 30",
+    "shortName": "F30",
+    "leagueId": "F",
+    "strength": 66
+  },
+  {
+    "id": "F-31",
+    "name": "Liga F Clube 31",
+    "shortName": "F31",
+    "leagueId": "F",
+    "strength": 49
+  },
+  {
+    "id": "F-32",
+    "name": "Liga F Clube 32",
+    "shortName": "F32",
+    "leagueId": "F",
+    "strength": 53
+  }
+]

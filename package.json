@@ -19,7 +19,9 @@
     "build": "pnpm -r --parallel build",
     "test": "pnpm -r --parallel test",
     "dev": "pnpm -C apps/desktop dev",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "content:generate": "pnpm -C packages/content generate",
+    "content:validate": "pnpm -C packages/content validate"
   },
   "pnpm": {
     "packageExtensions": {
@@ -54,4 +56,3 @@
     "@testing-library/react": "^16.0.1"
   }
 }
-

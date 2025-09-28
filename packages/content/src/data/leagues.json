@@ -1,0 +1,38 @@
+[
+  {
+    "id": "A",
+    "name": "Liga A",
+    "country": "País A",
+    "tier": 1
+  },
+  {
+    "id": "B",
+    "name": "Liga B",
+    "country": "País B",
+    "tier": 1
+  },
+  {
+    "id": "C",
+    "name": "Liga C",
+    "country": "País C",
+    "tier": 1
+  },
+  {
+    "id": "D",
+    "name": "Liga D",
+    "country": "País D",
+    "tier": 1
+  },
+  {
+    "id": "E",
+    "name": "Liga E",
+    "country": "País E",
+    "tier": 1
+  },
+  {
+    "id": "F",
+    "name": "Liga F",
+    "country": "País F",
+    "tier": 1
+  }
+]

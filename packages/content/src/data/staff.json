@@ -1,0 +1,5202 @@
+[
+  {
+    "id": "A-01-S1",
+    "clubId": "A-01",
+    "leagueId": "A",
+    "name": "Kai Esteves",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 15
+    }
+  },
+  {
+    "id": "A-01-S2",
+    "clubId": "A-01",
+    "leagueId": "A",
+    "name": "Leo Nascimento",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 15,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-02-S1",
+    "clubId": "A-02",
+    "leagueId": "A",
+    "name": "Joao Pereira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-02-S2",
+    "clubId": "A-02",
+    "leagueId": "A",
+    "name": "Paulo Silva",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-03-S1",
+    "clubId": "A-03",
+    "leagueId": "A",
+    "name": "Otavio Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 15,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-03-S2",
+    "clubId": "A-03",
+    "leagueId": "A",
+    "name": "Will Oliveira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-04-S1",
+    "clubId": "A-04",
+    "leagueId": "A",
+    "name": "Felipe Dias",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-04-S2",
+    "clubId": "A-04",
+    "leagueId": "A",
+    "name": "Leo Cardoso",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-05-S1",
+    "clubId": "A-05",
+    "leagueId": "A",
+    "name": "Thiago Ribeiro",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-05-S2",
+    "clubId": "A-05",
+    "leagueId": "A",
+    "name": "Felipe Henrique",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-06-S1",
+    "clubId": "A-06",
+    "leagueId": "A",
+    "name": "Bruno Teixeira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-06-S2",
+    "clubId": "A-06",
+    "leagueId": "A",
+    "name": "Joao Oliveira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 8,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-07-S1",
+    "clubId": "A-07",
+    "leagueId": "A",
+    "name": "Mateo Almeida",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-07-S2",
+    "clubId": "A-07",
+    "leagueId": "A",
+    "name": "Paulo Cardoso",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-08-S1",
+    "clubId": "A-08",
+    "leagueId": "A",
+    "name": "Sergio Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-08-S2",
+    "clubId": "A-08",
+    "leagueId": "A",
+    "name": "Vitor Lima 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "A-09-S1",
+    "clubId": "A-09",
+    "leagueId": "A",
+    "name": "Vitor Oliveira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-09-S2",
+    "clubId": "A-09",
+    "leagueId": "A",
+    "name": "Carlos Nascimento",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-10-S1",
+    "clubId": "A-10",
+    "leagueId": "A",
+    "name": "Carlos Klein",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-10-S2",
+    "clubId": "A-10",
+    "leagueId": "A",
+    "name": "Vitor Ribeiro 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-11-S1",
+    "clubId": "A-11",
+    "leagueId": "A",
+    "name": "Carlos Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-11-S2",
+    "clubId": "A-11",
+    "leagueId": "A",
+    "name": "Mateo Esteves",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-12-S1",
+    "clubId": "A-12",
+    "leagueId": "A",
+    "name": "Vitor Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-12-S2",
+    "clubId": "A-12",
+    "leagueId": "A",
+    "name": "Carlos Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-13-S1",
+    "clubId": "A-13",
+    "leagueId": "A",
+    "name": "Felipe Cardoso 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 14,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-13-S2",
+    "clubId": "A-13",
+    "leagueId": "A",
+    "name": "Diego Klein",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-14-S1",
+    "clubId": "A-14",
+    "leagueId": "A",
+    "name": "Will Esteves",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-14-S2",
+    "clubId": "A-14",
+    "leagueId": "A",
+    "name": "Sergio Oliveira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-15-S1",
+    "clubId": "A-15",
+    "leagueId": "A",
+    "name": "Thiago Esteves",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-15-S2",
+    "clubId": "A-15",
+    "leagueId": "A",
+    "name": "Gustavo Pereira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-16-S1",
+    "clubId": "A-16",
+    "leagueId": "A",
+    "name": "Edu Almeida",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-16-S2",
+    "clubId": "A-16",
+    "leagueId": "A",
+    "name": "Diego Queiroz",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 15,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-17-S1",
+    "clubId": "A-17",
+    "leagueId": "A",
+    "name": "Paulo Ibarra 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 9
+    }
+  },
+  {
+    "id": "A-17-S2",
+    "clubId": "A-17",
+    "leagueId": "A",
+    "name": "Sergio Pereira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-18-S1",
+    "clubId": "A-18",
+    "leagueId": "A",
+    "name": "Leo Moreira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-18-S2",
+    "clubId": "A-18",
+    "leagueId": "A",
+    "name": "Rafa Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-19-S1",
+    "clubId": "A-19",
+    "leagueId": "A",
+    "name": "Carlos Henrique 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-19-S2",
+    "clubId": "A-19",
+    "leagueId": "A",
+    "name": "Paulo Nascimento",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-20-S1",
+    "clubId": "A-20",
+    "leagueId": "A",
+    "name": "Vitor Gomes 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "A-20-S2",
+    "clubId": "A-20",
+    "leagueId": "A",
+    "name": "Thiago Ferreira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-21-S1",
+    "clubId": "A-21",
+    "leagueId": "A",
+    "name": "Will Ferreira 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 15,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-21-S2",
+    "clubId": "A-21",
+    "leagueId": "A",
+    "name": "Sergio Vasquez 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-22-S1",
+    "clubId": "A-22",
+    "leagueId": "A",
+    "name": "Thiago Pereira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 8,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-22-S2",
+    "clubId": "A-22",
+    "leagueId": "A",
+    "name": "Mateo Cardoso",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-23-S1",
+    "clubId": "A-23",
+    "leagueId": "A",
+    "name": "Leo Almeida 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 8,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-23-S2",
+    "clubId": "A-23",
+    "leagueId": "A",
+    "name": "Igor Nascimento 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-24-S1",
+    "clubId": "A-24",
+    "leagueId": "A",
+    "name": "Nico Silva 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-24-S2",
+    "clubId": "A-24",
+    "leagueId": "A",
+    "name": "Leo Ribeiro 4",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-25-S1",
+    "clubId": "A-25",
+    "leagueId": "A",
+    "name": "Diego Barros 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-25-S2",
+    "clubId": "A-25",
+    "leagueId": "A",
+    "name": "Mateo Barros 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 9,
+      "youth": 9
+    }
+  },
+  {
+    "id": "A-26-S1",
+    "clubId": "A-26",
+    "leagueId": "A",
+    "name": "Thiago Vasquez 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-26-S2",
+    "clubId": "A-26",
+    "leagueId": "A",
+    "name": "Paulo Henrique 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-27-S1",
+    "clubId": "A-27",
+    "leagueId": "A",
+    "name": "Thiago Jesus 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "A-27-S2",
+    "clubId": "A-27",
+    "leagueId": "A",
+    "name": "Sergio Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 8
+    }
+  },
+  {
+    "id": "A-28-S1",
+    "clubId": "A-28",
+    "leagueId": "A",
+    "name": "Leo Klein 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 15,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-28-S2",
+    "clubId": "A-28",
+    "leagueId": "A",
+    "name": "Sergio Lima 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-29-S1",
+    "clubId": "A-29",
+    "leagueId": "A",
+    "name": "Rafa Nascimento 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-29-S2",
+    "clubId": "A-29",
+    "leagueId": "A",
+    "name": "Hugo Jesus 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-30-S1",
+    "clubId": "A-30",
+    "leagueId": "A",
+    "name": "Joao Lima 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-30-S2",
+    "clubId": "A-30",
+    "leagueId": "A",
+    "name": "Vitor Oliveira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-31-S1",
+    "clubId": "A-31",
+    "leagueId": "A",
+    "name": "Joao Queiroz 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-31-S2",
+    "clubId": "A-31",
+    "leagueId": "A",
+    "name": "Kai Almeida 5",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "A-32-S1",
+    "clubId": "A-32",
+    "leagueId": "A",
+    "name": "Mateo Moreira 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-32-S2",
+    "clubId": "A-32",
+    "leagueId": "A",
+    "name": "Igor Oliveira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "A-33-S1",
+    "clubId": "A-33",
+    "leagueId": "A",
+    "name": "Thiago Teixeira 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 9,
+      "fitness": 8,
+      "youth": 14
+    }
+  },
+  {
+    "id": "A-33-S2",
+    "clubId": "A-33",
+    "leagueId": "A",
+    "name": "Bruno Cardoso 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 15
+    }
+  },
+  {
+    "id": "A-34-S1",
+    "clubId": "A-34",
+    "leagueId": "A",
+    "name": "Edu Lima 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "A-34-S2",
+    "clubId": "A-34",
+    "leagueId": "A",
+    "name": "Leo Ribeiro 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-01-S1",
+    "clubId": "B-01",
+    "leagueId": "B",
+    "name": "Alex Ibarra",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-01-S2",
+    "clubId": "B-01",
+    "leagueId": "B",
+    "name": "Gustavo Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-02-S1",
+    "clubId": "B-02",
+    "leagueId": "B",
+    "name": "Thiago Silva",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-02-S2",
+    "clubId": "B-02",
+    "leagueId": "B",
+    "name": "Edu Almeida",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 14
+    }
+  },
+  {
+    "id": "B-03-S1",
+    "clubId": "B-03",
+    "leagueId": "B",
+    "name": "Diego Nascimento",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-03-S2",
+    "clubId": "B-03",
+    "leagueId": "B",
+    "name": "Joao Ibarra",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "B-04-S1",
+    "clubId": "B-04",
+    "leagueId": "B",
+    "name": "Alex Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-04-S2",
+    "clubId": "B-04",
+    "leagueId": "B",
+    "name": "Kai Almeida",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-05-S1",
+    "clubId": "B-05",
+    "leagueId": "B",
+    "name": "Thiago Dias",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-05-S2",
+    "clubId": "B-05",
+    "leagueId": "B",
+    "name": "Alex Ribeiro",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-06-S1",
+    "clubId": "B-06",
+    "leagueId": "B",
+    "name": "Mateo Almeida 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-06-S2",
+    "clubId": "B-06",
+    "leagueId": "B",
+    "name": "Igor Ibarra",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-07-S1",
+    "clubId": "B-07",
+    "leagueId": "B",
+    "name": "Kai Ibarra",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-07-S2",
+    "clubId": "B-07",
+    "leagueId": "B",
+    "name": "Rafa Esteves",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-08-S1",
+    "clubId": "B-08",
+    "leagueId": "B",
+    "name": "Will Henrique",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 9,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-08-S2",
+    "clubId": "B-08",
+    "leagueId": "B",
+    "name": "Will Gomes",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 14
+    }
+  },
+  {
+    "id": "B-09-S1",
+    "clubId": "B-09",
+    "leagueId": "B",
+    "name": "Gustavo Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-09-S2",
+    "clubId": "B-09",
+    "leagueId": "B",
+    "name": "Alex Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-10-S1",
+    "clubId": "B-10",
+    "leagueId": "B",
+    "name": "Gustavo Nascimento",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-10-S2",
+    "clubId": "B-10",
+    "leagueId": "B",
+    "name": "Joao Gomes",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-11-S1",
+    "clubId": "B-11",
+    "leagueId": "B",
+    "name": "Edu Klein",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-11-S2",
+    "clubId": "B-11",
+    "leagueId": "B",
+    "name": "Hugo Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-12-S1",
+    "clubId": "B-12",
+    "leagueId": "B",
+    "name": "Mateo Silva",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-12-S2",
+    "clubId": "B-12",
+    "leagueId": "B",
+    "name": "Will Silva",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 15,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-13-S1",
+    "clubId": "B-13",
+    "leagueId": "B",
+    "name": "Rafa Klein",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 8
+    }
+  },
+  {
+    "id": "B-13-S2",
+    "clubId": "B-13",
+    "leagueId": "B",
+    "name": "Gustavo Klein",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 15,
+      "fitness": 14,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-14-S1",
+    "clubId": "B-14",
+    "leagueId": "B",
+    "name": "Sergio Ibarra 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 13
+    }
+  },
+  {
+    "id": "B-14-S2",
+    "clubId": "B-14",
+    "leagueId": "B",
+    "name": "Nico Dias",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 8
+    }
+  },
+  {
+    "id": "B-15-S1",
+    "clubId": "B-15",
+    "leagueId": "B",
+    "name": "Joao Pereira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-15-S2",
+    "clubId": "B-15",
+    "leagueId": "B",
+    "name": "Will Dias",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-16-S1",
+    "clubId": "B-16",
+    "leagueId": "B",
+    "name": "Otavio Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-16-S2",
+    "clubId": "B-16",
+    "leagueId": "B",
+    "name": "Sergio Cardoso 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 9,
+      "fitness": 8,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-17-S1",
+    "clubId": "B-17",
+    "leagueId": "B",
+    "name": "Kai Ribeiro 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-17-S2",
+    "clubId": "B-17",
+    "leagueId": "B",
+    "name": "Will Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-18-S1",
+    "clubId": "B-18",
+    "leagueId": "B",
+    "name": "Edu Pereira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-18-S2",
+    "clubId": "B-18",
+    "leagueId": "B",
+    "name": "Otavio Jesus 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 14,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-19-S1",
+    "clubId": "B-19",
+    "leagueId": "B",
+    "name": "Vitor Lima 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-19-S2",
+    "clubId": "B-19",
+    "leagueId": "B",
+    "name": "Paulo Klein",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-20-S1",
+    "clubId": "B-20",
+    "leagueId": "B",
+    "name": "Hugo Silva 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-20-S2",
+    "clubId": "B-20",
+    "leagueId": "B",
+    "name": "Otavio Silva 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 15,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-21-S1",
+    "clubId": "B-21",
+    "leagueId": "B",
+    "name": "Will Henrique 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-21-S2",
+    "clubId": "B-21",
+    "leagueId": "B",
+    "name": "Leo Ribeiro 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "B-22-S1",
+    "clubId": "B-22",
+    "leagueId": "B",
+    "name": "Leo Teixeira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-22-S2",
+    "clubId": "B-22",
+    "leagueId": "B",
+    "name": "Will Silva 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "B-23-S1",
+    "clubId": "B-23",
+    "leagueId": "B",
+    "name": "Igor Almeida 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 14,
+      "youth": 13
+    }
+  },
+  {
+    "id": "B-23-S2",
+    "clubId": "B-23",
+    "leagueId": "B",
+    "name": "Mateo Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-24-S1",
+    "clubId": "B-24",
+    "leagueId": "B",
+    "name": "Nico Oliveira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-24-S2",
+    "clubId": "B-24",
+    "leagueId": "B",
+    "name": "Otavio Almeida 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "B-25-S1",
+    "clubId": "B-25",
+    "leagueId": "B",
+    "name": "Thiago Gomes 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-25-S2",
+    "clubId": "B-25",
+    "leagueId": "B",
+    "name": "Leo Pereira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 14
+    }
+  },
+  {
+    "id": "B-26-S1",
+    "clubId": "B-26",
+    "leagueId": "B",
+    "name": "Bruno Vasquez 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-26-S2",
+    "clubId": "B-26",
+    "leagueId": "B",
+    "name": "Carlos Lima 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-27-S1",
+    "clubId": "B-27",
+    "leagueId": "B",
+    "name": "Kai Vasquez 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 15,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-27-S2",
+    "clubId": "B-27",
+    "leagueId": "B",
+    "name": "Carlos Esteves 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-28-S1",
+    "clubId": "B-28",
+    "leagueId": "B",
+    "name": "Hugo Jesus 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "B-28-S2",
+    "clubId": "B-28",
+    "leagueId": "B",
+    "name": "Carlos Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-29-S1",
+    "clubId": "B-29",
+    "leagueId": "B",
+    "name": "Otavio Ibarra 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 14,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-29-S2",
+    "clubId": "B-29",
+    "leagueId": "B",
+    "name": "Carlos Silva 4",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 8,
+      "fitness": 13,
+      "youth": 14
+    }
+  },
+  {
+    "id": "B-30-S1",
+    "clubId": "B-30",
+    "leagueId": "B",
+    "name": "Vitor Teixeira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "B-30-S2",
+    "clubId": "B-30",
+    "leagueId": "B",
+    "name": "Otavio Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-31-S1",
+    "clubId": "B-31",
+    "leagueId": "B",
+    "name": "Thiago Ibarra 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-31-S2",
+    "clubId": "B-31",
+    "leagueId": "B",
+    "name": "Nico Gomes 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-32-S1",
+    "clubId": "B-32",
+    "leagueId": "B",
+    "name": "Nico Queiroz 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "B-32-S2",
+    "clubId": "B-32",
+    "leagueId": "B",
+    "name": "Felipe Vasquez 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-33-S1",
+    "clubId": "B-33",
+    "leagueId": "B",
+    "name": "Felipe Teixeira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-33-S2",
+    "clubId": "B-33",
+    "leagueId": "B",
+    "name": "Diego Lima 5",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 15,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "B-34-S1",
+    "clubId": "B-34",
+    "leagueId": "B",
+    "name": "Alex Oliveira 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "B-34-S2",
+    "clubId": "B-34",
+    "leagueId": "B",
+    "name": "Thiago Cardoso 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 10,
+      "fitness": 14,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-01-S1",
+    "clubId": "C-01",
+    "leagueId": "C",
+    "name": "Paulo Almeida",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-01-S2",
+    "clubId": "C-01",
+    "leagueId": "C",
+    "name": "Will Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-02-S1",
+    "clubId": "C-02",
+    "leagueId": "C",
+    "name": "Leo Ibarra",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-02-S2",
+    "clubId": "C-02",
+    "leagueId": "C",
+    "name": "Rafa Esteves",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 8,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-03-S1",
+    "clubId": "C-03",
+    "leagueId": "C",
+    "name": "Bruno Nascimento",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-03-S2",
+    "clubId": "C-03",
+    "leagueId": "C",
+    "name": "Alex Moreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-04-S1",
+    "clubId": "C-04",
+    "leagueId": "C",
+    "name": "Otavio Jesus",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-04-S2",
+    "clubId": "C-04",
+    "leagueId": "C",
+    "name": "Igor Teixeira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-05-S1",
+    "clubId": "C-05",
+    "leagueId": "C",
+    "name": "Vitor Dias",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-05-S2",
+    "clubId": "C-05",
+    "leagueId": "C",
+    "name": "Gustavo Klein",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-06-S1",
+    "clubId": "C-06",
+    "leagueId": "C",
+    "name": "Vitor Silva",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-06-S2",
+    "clubId": "C-06",
+    "leagueId": "C",
+    "name": "Felipe Nascimento",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-07-S1",
+    "clubId": "C-07",
+    "leagueId": "C",
+    "name": "Edu Klein",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-07-S2",
+    "clubId": "C-07",
+    "leagueId": "C",
+    "name": "Felipe Barros",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-08-S1",
+    "clubId": "C-08",
+    "leagueId": "C",
+    "name": "Alex Esteves",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-08-S2",
+    "clubId": "C-08",
+    "leagueId": "C",
+    "name": "Alex Pereira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-09-S1",
+    "clubId": "C-09",
+    "leagueId": "C",
+    "name": "Carlos Queiroz",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-09-S2",
+    "clubId": "C-09",
+    "leagueId": "C",
+    "name": "Diego Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-10-S1",
+    "clubId": "C-10",
+    "leagueId": "C",
+    "name": "Felipe Ibarra",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-10-S2",
+    "clubId": "C-10",
+    "leagueId": "C",
+    "name": "Joao Gomes",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-11-S1",
+    "clubId": "C-11",
+    "leagueId": "C",
+    "name": "Kai Queiroz",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-11-S2",
+    "clubId": "C-11",
+    "leagueId": "C",
+    "name": "Kai Silva",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 15,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-12-S1",
+    "clubId": "C-12",
+    "leagueId": "C",
+    "name": "Hugo Moreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-12-S2",
+    "clubId": "C-12",
+    "leagueId": "C",
+    "name": "Sergio Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-13-S1",
+    "clubId": "C-13",
+    "leagueId": "C",
+    "name": "Felipe Esteves",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-13-S2",
+    "clubId": "C-13",
+    "leagueId": "C",
+    "name": "Sergio Jesus",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-14-S1",
+    "clubId": "C-14",
+    "leagueId": "C",
+    "name": "Leo Moreira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-14-S2",
+    "clubId": "C-14",
+    "leagueId": "C",
+    "name": "Diego Pereira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-15-S1",
+    "clubId": "C-15",
+    "leagueId": "C",
+    "name": "Mateo Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-15-S2",
+    "clubId": "C-15",
+    "leagueId": "C",
+    "name": "Kai Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-16-S1",
+    "clubId": "C-16",
+    "leagueId": "C",
+    "name": "Leo Lima 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 13,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-16-S2",
+    "clubId": "C-16",
+    "leagueId": "C",
+    "name": "Kai Vasquez 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-17-S1",
+    "clubId": "C-17",
+    "leagueId": "C",
+    "name": "Kai Esteves 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-17-S2",
+    "clubId": "C-17",
+    "leagueId": "C",
+    "name": "Edu Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-18-S1",
+    "clubId": "C-18",
+    "leagueId": "C",
+    "name": "Gustavo Pereira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-18-S2",
+    "clubId": "C-18",
+    "leagueId": "C",
+    "name": "Thiago Lima 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-19-S1",
+    "clubId": "C-19",
+    "leagueId": "C",
+    "name": "Igor Henrique 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 15,
+      "fitness": 9,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-19-S2",
+    "clubId": "C-19",
+    "leagueId": "C",
+    "name": "Thiago Ferreira 4",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-20-S1",
+    "clubId": "C-20",
+    "leagueId": "C",
+    "name": "Hugo Pereira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-20-S2",
+    "clubId": "C-20",
+    "leagueId": "C",
+    "name": "Bruno Dias",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-21-S1",
+    "clubId": "C-21",
+    "leagueId": "C",
+    "name": "Will Pereira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-21-S2",
+    "clubId": "C-21",
+    "leagueId": "C",
+    "name": "Rafa Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "C-22-S1",
+    "clubId": "C-22",
+    "leagueId": "C",
+    "name": "Alex Jesus 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-22-S2",
+    "clubId": "C-22",
+    "leagueId": "C",
+    "name": "Sergio Queiroz 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-23-S1",
+    "clubId": "C-23",
+    "leagueId": "C",
+    "name": "Paulo Henrique 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-23-S2",
+    "clubId": "C-23",
+    "leagueId": "C",
+    "name": "Nico Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-24-S1",
+    "clubId": "C-24",
+    "leagueId": "C",
+    "name": "Paulo Jesus 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-24-S2",
+    "clubId": "C-24",
+    "leagueId": "C",
+    "name": "Felipe Klein 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-25-S1",
+    "clubId": "C-25",
+    "leagueId": "C",
+    "name": "Vitor Oliveira 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-25-S2",
+    "clubId": "C-25",
+    "leagueId": "C",
+    "name": "Diego Klein 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-26-S1",
+    "clubId": "C-26",
+    "leagueId": "C",
+    "name": "Rafa Henrique 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-26-S2",
+    "clubId": "C-26",
+    "leagueId": "C",
+    "name": "Igor Klein 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-27-S1",
+    "clubId": "C-27",
+    "leagueId": "C",
+    "name": "Gustavo Nascimento 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 14,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-27-S2",
+    "clubId": "C-27",
+    "leagueId": "C",
+    "name": "Joao Henrique 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-28-S1",
+    "clubId": "C-28",
+    "leagueId": "C",
+    "name": "Vitor Vasquez 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-28-S2",
+    "clubId": "C-28",
+    "leagueId": "C",
+    "name": "Gustavo Henrique 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-29-S1",
+    "clubId": "C-29",
+    "leagueId": "C",
+    "name": "Nico Silva 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 8
+    }
+  },
+  {
+    "id": "C-29-S2",
+    "clubId": "C-29",
+    "leagueId": "C",
+    "name": "Bruno Queiroz 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 8,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-30-S1",
+    "clubId": "C-30",
+    "leagueId": "C",
+    "name": "Vitor Esteves 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "C-30-S2",
+    "clubId": "C-30",
+    "leagueId": "C",
+    "name": "Alex Lima 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-31-S1",
+    "clubId": "C-31",
+    "leagueId": "C",
+    "name": "Rafa Ribeiro 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-31-S2",
+    "clubId": "C-31",
+    "leagueId": "C",
+    "name": "Kai Pereira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-32-S1",
+    "clubId": "C-32",
+    "leagueId": "C",
+    "name": "Thiago Jesus 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 14,
+      "youth": 13
+    }
+  },
+  {
+    "id": "C-32-S2",
+    "clubId": "C-32",
+    "leagueId": "C",
+    "name": "Joao Cardoso 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 8
+    }
+  },
+  {
+    "id": "C-33-S1",
+    "clubId": "C-33",
+    "leagueId": "C",
+    "name": "Otavio Klein 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "C-33-S2",
+    "clubId": "C-33",
+    "leagueId": "C",
+    "name": "Kai Jesus 4",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "C-34-S1",
+    "clubId": "C-34",
+    "leagueId": "C",
+    "name": "Joao Gomes 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 10,
+      "fitness": 15,
+      "youth": 12
+    }
+  },
+  {
+    "id": "C-34-S2",
+    "clubId": "C-34",
+    "leagueId": "C",
+    "name": "Carlos Barros 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 8
+    }
+  },
+  {
+    "id": "D-01-S1",
+    "clubId": "D-01",
+    "leagueId": "D",
+    "name": "Kai Silva",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 15,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-01-S2",
+    "clubId": "D-01",
+    "leagueId": "D",
+    "name": "Vitor Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-02-S1",
+    "clubId": "D-02",
+    "leagueId": "D",
+    "name": "Edu Oliveira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-02-S2",
+    "clubId": "D-02",
+    "leagueId": "D",
+    "name": "Gustavo Almeida",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-03-S1",
+    "clubId": "D-03",
+    "leagueId": "D",
+    "name": "Thiago Dias",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-03-S2",
+    "clubId": "D-03",
+    "leagueId": "D",
+    "name": "Diego Nascimento",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-04-S1",
+    "clubId": "D-04",
+    "leagueId": "D",
+    "name": "Vitor Ribeiro",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "D-04-S2",
+    "clubId": "D-04",
+    "leagueId": "D",
+    "name": "Paulo Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-05-S1",
+    "clubId": "D-05",
+    "leagueId": "D",
+    "name": "Will Silva",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-05-S2",
+    "clubId": "D-05",
+    "leagueId": "D",
+    "name": "Paulo Silva",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 8
+    }
+  },
+  {
+    "id": "D-06-S1",
+    "clubId": "D-06",
+    "leagueId": "D",
+    "name": "Kai Nascimento",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-06-S2",
+    "clubId": "D-06",
+    "leagueId": "D",
+    "name": "Thiago Henrique",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-07-S1",
+    "clubId": "D-07",
+    "leagueId": "D",
+    "name": "Edu Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 10,
+      "fitness": 9,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-07-S2",
+    "clubId": "D-07",
+    "leagueId": "D",
+    "name": "Rafa Henrique",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 15,
+      "youth": 8
+    }
+  },
+  {
+    "id": "D-08-S1",
+    "clubId": "D-08",
+    "leagueId": "D",
+    "name": "Rafa Almeida",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-08-S2",
+    "clubId": "D-08",
+    "leagueId": "D",
+    "name": "Will Queiroz",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-09-S1",
+    "clubId": "D-09",
+    "leagueId": "D",
+    "name": "Thiago Moreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 8
+    }
+  },
+  {
+    "id": "D-09-S2",
+    "clubId": "D-09",
+    "leagueId": "D",
+    "name": "Vitor Almeida",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-10-S1",
+    "clubId": "D-10",
+    "leagueId": "D",
+    "name": "Carlos Teixeira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-10-S2",
+    "clubId": "D-10",
+    "leagueId": "D",
+    "name": "Thiago Ibarra",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 8
+    }
+  },
+  {
+    "id": "D-11-S1",
+    "clubId": "D-11",
+    "leagueId": "D",
+    "name": "Otavio Moreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-11-S2",
+    "clubId": "D-11",
+    "leagueId": "D",
+    "name": "Felipe Almeida 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-12-S1",
+    "clubId": "D-12",
+    "leagueId": "D",
+    "name": "Mateo Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "D-12-S2",
+    "clubId": "D-12",
+    "leagueId": "D",
+    "name": "Nico Almeida 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 8,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-13-S1",
+    "clubId": "D-13",
+    "leagueId": "D",
+    "name": "Vitor Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-13-S2",
+    "clubId": "D-13",
+    "leagueId": "D",
+    "name": "Hugo Dias 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-14-S1",
+    "clubId": "D-14",
+    "leagueId": "D",
+    "name": "Felipe Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "D-14-S2",
+    "clubId": "D-14",
+    "leagueId": "D",
+    "name": "Leo Cardoso 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-15-S1",
+    "clubId": "D-15",
+    "leagueId": "D",
+    "name": "Edu Queiroz",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-15-S2",
+    "clubId": "D-15",
+    "leagueId": "D",
+    "name": "Otavio Barros",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 14,
+      "youth": 14
+    }
+  },
+  {
+    "id": "D-16-S1",
+    "clubId": "D-16",
+    "leagueId": "D",
+    "name": "Paulo Oliveira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-16-S2",
+    "clubId": "D-16",
+    "leagueId": "D",
+    "name": "Gustavo Barros 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-17-S1",
+    "clubId": "D-17",
+    "leagueId": "D",
+    "name": "Mateo Jesus",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-17-S2",
+    "clubId": "D-17",
+    "leagueId": "D",
+    "name": "Felipe Cardoso",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-18-S1",
+    "clubId": "D-18",
+    "leagueId": "D",
+    "name": "Diego Cardoso",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-18-S2",
+    "clubId": "D-18",
+    "leagueId": "D",
+    "name": "Joao Cardoso 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-19-S1",
+    "clubId": "D-19",
+    "leagueId": "D",
+    "name": "Alex Klein 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-19-S2",
+    "clubId": "D-19",
+    "leagueId": "D",
+    "name": "Sergio Jesus",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 15,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-20-S1",
+    "clubId": "D-20",
+    "leagueId": "D",
+    "name": "Alex Vasquez 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 9,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-20-S2",
+    "clubId": "D-20",
+    "leagueId": "D",
+    "name": "Paulo Almeida 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 9,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-21-S1",
+    "clubId": "D-21",
+    "leagueId": "D",
+    "name": "Felipe Cardoso 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 14
+    }
+  },
+  {
+    "id": "D-21-S2",
+    "clubId": "D-21",
+    "leagueId": "D",
+    "name": "Hugo Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-22-S1",
+    "clubId": "D-22",
+    "leagueId": "D",
+    "name": "Otavio Queiroz 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-22-S2",
+    "clubId": "D-22",
+    "leagueId": "D",
+    "name": "Otavio Henrique 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-23-S1",
+    "clubId": "D-23",
+    "leagueId": "D",
+    "name": "Felipe Nascimento 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-23-S2",
+    "clubId": "D-23",
+    "leagueId": "D",
+    "name": "Leo Dias 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-24-S1",
+    "clubId": "D-24",
+    "leagueId": "D",
+    "name": "Gustavo Silva 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-24-S2",
+    "clubId": "D-24",
+    "leagueId": "D",
+    "name": "Hugo Esteves 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-25-S1",
+    "clubId": "D-25",
+    "leagueId": "D",
+    "name": "Mateo Lima 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 8,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-25-S2",
+    "clubId": "D-25",
+    "leagueId": "D",
+    "name": "Edu Barros 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-26-S1",
+    "clubId": "D-26",
+    "leagueId": "D",
+    "name": "Paulo Klein 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 15
+    }
+  },
+  {
+    "id": "D-26-S2",
+    "clubId": "D-26",
+    "leagueId": "D",
+    "name": "Mateo Moreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-27-S1",
+    "clubId": "D-27",
+    "leagueId": "D",
+    "name": "Igor Ferreira 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-27-S2",
+    "clubId": "D-27",
+    "leagueId": "D",
+    "name": "Leo Queiroz 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 8,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-28-S1",
+    "clubId": "D-28",
+    "leagueId": "D",
+    "name": "Igor Nascimento",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-28-S2",
+    "clubId": "D-28",
+    "leagueId": "D",
+    "name": "Will Dias 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-29-S1",
+    "clubId": "D-29",
+    "leagueId": "D",
+    "name": "Edu Lima 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 8,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-29-S2",
+    "clubId": "D-29",
+    "leagueId": "D",
+    "name": "Carlos Oliveira 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-30-S1",
+    "clubId": "D-30",
+    "leagueId": "D",
+    "name": "Alex Jesus 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-30-S2",
+    "clubId": "D-30",
+    "leagueId": "D",
+    "name": "Leo Gomes 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-31-S1",
+    "clubId": "D-31",
+    "leagueId": "D",
+    "name": "Igor Almeida 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 9,
+      "fitness": 9,
+      "youth": 9
+    }
+  },
+  {
+    "id": "D-31-S2",
+    "clubId": "D-31",
+    "leagueId": "D",
+    "name": "Rafa Cardoso 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-32-S1",
+    "clubId": "D-32",
+    "leagueId": "D",
+    "name": "Nico Teixeira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "D-32-S2",
+    "clubId": "D-32",
+    "leagueId": "D",
+    "name": "Otavio Oliveira 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-33-S1",
+    "clubId": "D-33",
+    "leagueId": "D",
+    "name": "Thiago Gomes 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 8,
+      "fitness": 14,
+      "youth": 11
+    }
+  },
+  {
+    "id": "D-33-S2",
+    "clubId": "D-33",
+    "leagueId": "D",
+    "name": "Nico Moreira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "D-34-S1",
+    "clubId": "D-34",
+    "leagueId": "D",
+    "name": "Leo Nascimento 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "D-34-S2",
+    "clubId": "D-34",
+    "leagueId": "D",
+    "name": "Mateo Teixeira 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 14,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-01-S1",
+    "clubId": "E-01",
+    "leagueId": "E",
+    "name": "Rafa Pereira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-01-S2",
+    "clubId": "E-01",
+    "leagueId": "E",
+    "name": "Hugo Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 14,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-02-S1",
+    "clubId": "E-02",
+    "leagueId": "E",
+    "name": "Joao Dias",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-02-S2",
+    "clubId": "E-02",
+    "leagueId": "E",
+    "name": "Vitor Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 15,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-03-S1",
+    "clubId": "E-03",
+    "leagueId": "E",
+    "name": "Thiago Nascimento",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-03-S2",
+    "clubId": "E-03",
+    "leagueId": "E",
+    "name": "Otavio Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-04-S1",
+    "clubId": "E-04",
+    "leagueId": "E",
+    "name": "Nico Oliveira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-04-S2",
+    "clubId": "E-04",
+    "leagueId": "E",
+    "name": "Felipe Henrique",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-05-S1",
+    "clubId": "E-05",
+    "leagueId": "E",
+    "name": "Diego Oliveira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-05-S2",
+    "clubId": "E-05",
+    "leagueId": "E",
+    "name": "Paulo Henrique",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-06-S1",
+    "clubId": "E-06",
+    "leagueId": "E",
+    "name": "Kai Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-06-S2",
+    "clubId": "E-06",
+    "leagueId": "E",
+    "name": "Rafa Oliveira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-07-S1",
+    "clubId": "E-07",
+    "leagueId": "E",
+    "name": "Igor Teixeira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-07-S2",
+    "clubId": "E-07",
+    "leagueId": "E",
+    "name": "Vitor Esteves",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-08-S1",
+    "clubId": "E-08",
+    "leagueId": "E",
+    "name": "Otavio Silva",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-08-S2",
+    "clubId": "E-08",
+    "leagueId": "E",
+    "name": "Rafa Teixeira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-09-S1",
+    "clubId": "E-09",
+    "leagueId": "E",
+    "name": "Diego Ibarra",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 9,
+      "fitness": 8,
+      "youth": 15
+    }
+  },
+  {
+    "id": "E-09-S2",
+    "clubId": "E-09",
+    "leagueId": "E",
+    "name": "Leo Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 15,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-10-S1",
+    "clubId": "E-10",
+    "leagueId": "E",
+    "name": "Paulo Ribeiro",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-10-S2",
+    "clubId": "E-10",
+    "leagueId": "E",
+    "name": "Kai Queiroz",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-11-S1",
+    "clubId": "E-11",
+    "leagueId": "E",
+    "name": "Leo Teixeira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-11-S2",
+    "clubId": "E-11",
+    "leagueId": "E",
+    "name": "Thiago Gomes",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-12-S1",
+    "clubId": "E-12",
+    "leagueId": "E",
+    "name": "Alex Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-12-S2",
+    "clubId": "E-12",
+    "leagueId": "E",
+    "name": "Thiago Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-13-S1",
+    "clubId": "E-13",
+    "leagueId": "E",
+    "name": "Paulo Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-13-S2",
+    "clubId": "E-13",
+    "leagueId": "E",
+    "name": "Vitor Ibarra 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 8,
+      "fitness": 10,
+      "youth": 15
+    }
+  },
+  {
+    "id": "E-14-S1",
+    "clubId": "E-14",
+    "leagueId": "E",
+    "name": "Hugo Queiroz",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 14
+    }
+  },
+  {
+    "id": "E-14-S2",
+    "clubId": "E-14",
+    "leagueId": "E",
+    "name": "Vitor Ribeiro",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-15-S1",
+    "clubId": "E-15",
+    "leagueId": "E",
+    "name": "Hugo Dias 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 8,
+      "youth": 14
+    }
+  },
+  {
+    "id": "E-15-S2",
+    "clubId": "E-15",
+    "leagueId": "E",
+    "name": "Paulo Silva 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "E-16-S1",
+    "clubId": "E-16",
+    "leagueId": "E",
+    "name": "Bruno Almeida 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-16-S2",
+    "clubId": "E-16",
+    "leagueId": "E",
+    "name": "Rafa Vasquez",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-17-S1",
+    "clubId": "E-17",
+    "leagueId": "E",
+    "name": "Rafa Vasquez 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 15,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-17-S2",
+    "clubId": "E-17",
+    "leagueId": "E",
+    "name": "Hugo Teixeira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-18-S1",
+    "clubId": "E-18",
+    "leagueId": "E",
+    "name": "Igor Lima 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-18-S2",
+    "clubId": "E-18",
+    "leagueId": "E",
+    "name": "Mateo Vasquez 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 8,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-19-S1",
+    "clubId": "E-19",
+    "leagueId": "E",
+    "name": "Edu Barros 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-19-S2",
+    "clubId": "E-19",
+    "leagueId": "E",
+    "name": "Felipe Ribeiro 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-20-S1",
+    "clubId": "E-20",
+    "leagueId": "E",
+    "name": "Nico Cardoso 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-20-S2",
+    "clubId": "E-20",
+    "leagueId": "E",
+    "name": "Kai Ribeiro",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-21-S1",
+    "clubId": "E-21",
+    "leagueId": "E",
+    "name": "Gustavo Klein 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-21-S2",
+    "clubId": "E-21",
+    "leagueId": "E",
+    "name": "Alex Dias 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 10,
+      "youth": 15
+    }
+  },
+  {
+    "id": "E-22-S1",
+    "clubId": "E-22",
+    "leagueId": "E",
+    "name": "Vitor Teixeira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-22-S2",
+    "clubId": "E-22",
+    "leagueId": "E",
+    "name": "Alex Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-23-S1",
+    "clubId": "E-23",
+    "leagueId": "E",
+    "name": "Carlos Klein 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "E-23-S2",
+    "clubId": "E-23",
+    "leagueId": "E",
+    "name": "Mateo Henrique 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 8
+    }
+  },
+  {
+    "id": "E-24-S1",
+    "clubId": "E-24",
+    "leagueId": "E",
+    "name": "Diego Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-24-S2",
+    "clubId": "E-24",
+    "leagueId": "E",
+    "name": "Diego Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-25-S1",
+    "clubId": "E-25",
+    "leagueId": "E",
+    "name": "Bruno Silva 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-25-S2",
+    "clubId": "E-25",
+    "leagueId": "E",
+    "name": "Bruno Lima 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "E-26-S1",
+    "clubId": "E-26",
+    "leagueId": "E",
+    "name": "Otavio Henrique 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 9,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-26-S2",
+    "clubId": "E-26",
+    "leagueId": "E",
+    "name": "Paulo Teixeira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-27-S1",
+    "clubId": "E-27",
+    "leagueId": "E",
+    "name": "Nico Ferreira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 15
+    }
+  },
+  {
+    "id": "E-27-S2",
+    "clubId": "E-27",
+    "leagueId": "E",
+    "name": "Leo Moreira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 14
+    }
+  },
+  {
+    "id": "E-28-S1",
+    "clubId": "E-28",
+    "leagueId": "E",
+    "name": "Kai Barros 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 8,
+      "fitness": 10,
+      "youth": 15
+    }
+  },
+  {
+    "id": "E-28-S2",
+    "clubId": "E-28",
+    "leagueId": "E",
+    "name": "Will Teixeira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "E-29-S1",
+    "clubId": "E-29",
+    "leagueId": "E",
+    "name": "Edu Nascimento 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-29-S2",
+    "clubId": "E-29",
+    "leagueId": "E",
+    "name": "Diego Nascimento 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 10
+    }
+  },
+  {
+    "id": "E-30-S1",
+    "clubId": "E-30",
+    "leagueId": "E",
+    "name": "Kai Cardoso 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "E-30-S2",
+    "clubId": "E-30",
+    "leagueId": "E",
+    "name": "Sergio Nascimento 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-31-S1",
+    "clubId": "E-31",
+    "leagueId": "E",
+    "name": "Mateo Barros 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-31-S2",
+    "clubId": "E-31",
+    "leagueId": "E",
+    "name": "Otavio Nascimento 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "E-32-S1",
+    "clubId": "E-32",
+    "leagueId": "E",
+    "name": "Joao Dias 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 10,
+      "youth": 11
+    }
+  },
+  {
+    "id": "E-32-S2",
+    "clubId": "E-32",
+    "leagueId": "E",
+    "name": "Bruno Gomes 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-01-S1",
+    "clubId": "F-01",
+    "leagueId": "F",
+    "name": "Leo Lima",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-01-S2",
+    "clubId": "F-01",
+    "leagueId": "F",
+    "name": "Hugo Oliveira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-02-S1",
+    "clubId": "F-02",
+    "leagueId": "F",
+    "name": "Leo Gomes",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 9,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-02-S2",
+    "clubId": "F-02",
+    "leagueId": "F",
+    "name": "Mateo Lima",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-03-S1",
+    "clubId": "F-03",
+    "leagueId": "F",
+    "name": "Diego Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-03-S2",
+    "clubId": "F-03",
+    "leagueId": "F",
+    "name": "Will Klein",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-04-S1",
+    "clubId": "F-04",
+    "leagueId": "F",
+    "name": "Alex Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-04-S2",
+    "clubId": "F-04",
+    "leagueId": "F",
+    "name": "Edu Jesus",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-05-S1",
+    "clubId": "F-05",
+    "leagueId": "F",
+    "name": "Alex Esteves",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-05-S2",
+    "clubId": "F-05",
+    "leagueId": "F",
+    "name": "Felipe Dias",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 9,
+      "fitness": 9,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-06-S1",
+    "clubId": "F-06",
+    "leagueId": "F",
+    "name": "Otavio Jesus",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 13,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-06-S2",
+    "clubId": "F-06",
+    "leagueId": "F",
+    "name": "Felipe Almeida",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 9,
+      "fitness": 8,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-07-S1",
+    "clubId": "F-07",
+    "leagueId": "F",
+    "name": "Mateo Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-07-S2",
+    "clubId": "F-07",
+    "leagueId": "F",
+    "name": "Otavio Almeida",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-08-S1",
+    "clubId": "F-08",
+    "leagueId": "F",
+    "name": "Gustavo Teixeira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-08-S2",
+    "clubId": "F-08",
+    "leagueId": "F",
+    "name": "Hugo Pereira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-09-S1",
+    "clubId": "F-09",
+    "leagueId": "F",
+    "name": "Kai Jesus",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-09-S2",
+    "clubId": "F-09",
+    "leagueId": "F",
+    "name": "Joao Gomes",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-10-S1",
+    "clubId": "F-10",
+    "leagueId": "F",
+    "name": "Carlos Jesus",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-10-S2",
+    "clubId": "F-10",
+    "leagueId": "F",
+    "name": "Mateo Esteves",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-11-S1",
+    "clubId": "F-11",
+    "leagueId": "F",
+    "name": "Carlos Ribeiro",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 11,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-11-S2",
+    "clubId": "F-11",
+    "leagueId": "F",
+    "name": "Alex Esteves 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-12-S1",
+    "clubId": "F-12",
+    "leagueId": "F",
+    "name": "Paulo Jesus 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 10,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-12-S2",
+    "clubId": "F-12",
+    "leagueId": "F",
+    "name": "Edu Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-13-S1",
+    "clubId": "F-13",
+    "leagueId": "F",
+    "name": "Leo Ferreira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-13-S2",
+    "clubId": "F-13",
+    "leagueId": "F",
+    "name": "Otavio Pereira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 15,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-14-S1",
+    "clubId": "F-14",
+    "leagueId": "F",
+    "name": "Gustavo Gomes",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-14-S2",
+    "clubId": "F-14",
+    "leagueId": "F",
+    "name": "Gustavo Ferreira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-15-S1",
+    "clubId": "F-15",
+    "leagueId": "F",
+    "name": "Felipe Oliveira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-15-S2",
+    "clubId": "F-15",
+    "leagueId": "F",
+    "name": "Vitor Ibarra",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 14,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-16-S1",
+    "clubId": "F-16",
+    "leagueId": "F",
+    "name": "Thiago Pereira",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 15
+    }
+  },
+  {
+    "id": "F-16-S2",
+    "clubId": "F-16",
+    "leagueId": "F",
+    "name": "Leo Moreira 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 11,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-17-S1",
+    "clubId": "F-17",
+    "leagueId": "F",
+    "name": "Kai Pereira 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-17-S2",
+    "clubId": "F-17",
+    "leagueId": "F",
+    "name": "Kai Oliveira",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-18-S1",
+    "clubId": "F-18",
+    "leagueId": "F",
+    "name": "Thiago Vasquez 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 9,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-18-S2",
+    "clubId": "F-18",
+    "leagueId": "F",
+    "name": "Paulo Queiroz 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-19-S1",
+    "clubId": "F-19",
+    "leagueId": "F",
+    "name": "Edu Barros",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 11,
+      "fitness": 9,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-19-S2",
+    "clubId": "F-19",
+    "leagueId": "F",
+    "name": "Vitor Dias 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 12,
+      "fitness": 13,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-20-S1",
+    "clubId": "F-20",
+    "leagueId": "F",
+    "name": "Felipe Jesus 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 13,
+      "fitness": 12,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-20-S2",
+    "clubId": "F-20",
+    "leagueId": "F",
+    "name": "Rafa Barros 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 9,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-21-S1",
+    "clubId": "F-21",
+    "leagueId": "F",
+    "name": "Sergio Klein",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 15
+    }
+  },
+  {
+    "id": "F-21-S2",
+    "clubId": "F-21",
+    "leagueId": "F",
+    "name": "Carlos Lima 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 9,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-22-S1",
+    "clubId": "F-22",
+    "leagueId": "F",
+    "name": "Rafa Silva 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 8
+    }
+  },
+  {
+    "id": "F-22-S2",
+    "clubId": "F-22",
+    "leagueId": "F",
+    "name": "Diego Almeida 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 9,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-23-S1",
+    "clubId": "F-23",
+    "leagueId": "F",
+    "name": "Edu Klein 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 14,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-23-S2",
+    "clubId": "F-23",
+    "leagueId": "F",
+    "name": "Nico Silva 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-24-S1",
+    "clubId": "F-24",
+    "leagueId": "F",
+    "name": "Diego Esteves 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 15,
+      "manManagement": 11,
+      "fitness": 11,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-24-S2",
+    "clubId": "F-24",
+    "leagueId": "F",
+    "name": "Thiago Almeida 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 10,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-25-S1",
+    "clubId": "F-25",
+    "leagueId": "F",
+    "name": "Igor Silva 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-25-S2",
+    "clubId": "F-25",
+    "leagueId": "F",
+    "name": "Edu Cardoso 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 11,
+      "fitness": 14,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-26-S1",
+    "clubId": "F-26",
+    "leagueId": "F",
+    "name": "Edu Vasquez 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-26-S2",
+    "clubId": "F-26",
+    "leagueId": "F",
+    "name": "Rafa Cardoso 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-27-S1",
+    "clubId": "F-27",
+    "leagueId": "F",
+    "name": "Mateo Ibarra 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 13,
+      "manManagement": 14,
+      "fitness": 11,
+      "youth": 8
+    }
+  },
+  {
+    "id": "F-27-S2",
+    "clubId": "F-27",
+    "leagueId": "F",
+    "name": "Diego Nascimento 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 11,
+      "manManagement": 9,
+      "fitness": 11,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-28-S1",
+    "clubId": "F-28",
+    "leagueId": "F",
+    "name": "Rafa Oliveira 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 13,
+      "fitness": 9,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-28-S2",
+    "clubId": "F-28",
+    "leagueId": "F",
+    "name": "Alex Nascimento 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 11,
+      "fitness": 12,
+      "youth": 11
+    }
+  },
+  {
+    "id": "F-29-S1",
+    "clubId": "F-29",
+    "leagueId": "F",
+    "name": "Bruno Lima 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 13,
+      "fitness": 9,
+      "youth": 10
+    }
+  },
+  {
+    "id": "F-29-S2",
+    "clubId": "F-29",
+    "leagueId": "F",
+    "name": "Felipe Ibarra 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 8,
+      "manManagement": 13,
+      "fitness": 15,
+      "youth": 9
+    }
+  },
+  {
+    "id": "F-30-S1",
+    "clubId": "F-30",
+    "leagueId": "F",
+    "name": "Joao Oliveira 3",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 14,
+      "manManagement": 8,
+      "fitness": 12,
+      "youth": 14
+    }
+  },
+  {
+    "id": "F-30-S2",
+    "clubId": "F-30",
+    "leagueId": "F",
+    "name": "Otavio Ribeiro 2",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 14,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-31-S1",
+    "clubId": "F-31",
+    "leagueId": "F",
+    "name": "Joao Silva 4",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 11,
+      "youth": 13
+    }
+  },
+  {
+    "id": "F-31-S2",
+    "clubId": "F-31",
+    "leagueId": "F",
+    "name": "Vitor Oliveira 4",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 12,
+      "fitness": 10,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-32-S1",
+    "clubId": "F-32",
+    "leagueId": "F",
+    "name": "Sergio Gomes 2",
+    "role": "HeadCoach",
+    "attributes": {
+      "tactical": 10,
+      "manManagement": 10,
+      "fitness": 12,
+      "youth": 12
+    }
+  },
+  {
+    "id": "F-32-S2",
+    "clubId": "F-32",
+    "leagueId": "F",
+    "name": "Joao Pereira 3",
+    "role": "AssistantCoach",
+    "attributes": {
+      "tactical": 12,
+      "manManagement": 10,
+      "fitness": 13,
+      "youth": 15
+    }
+  }
+]
