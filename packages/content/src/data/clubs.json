@@ -1,0 +1,132 @@
+[
+  {
+    "id": "CLB-0001",
+    "name": "AlbionX FC",
+    "shortName": "ALX FC",
+    "nationality": "ALX",
+    "division": "AlbionX-D1",
+    "budget": 15000000,
+    "reputation": 85,
+    "stadium": {
+      "name": "AlbionX Stadium",
+      "capacity": 45000
+    }
+  },
+  {
+    "id": "CLB-0002",
+    "name": "United AlbionX",
+    "shortName": "Utd ALX",
+    "nationality": "ALX",
+    "division": "AlbionX-D1",
+    "budget": 20000000,
+    "reputation": 90,
+    "stadium": {
+      "name": "United Stadium",
+      "capacity": 55000
+    }
+  },
+  {
+    "id": "CLB-0003",
+    "name": "AlbionX City",
+    "shortName": "ALX City",
+    "nationality": "ALX",
+    "division": "AlbionX-D1",
+    "budget": 18000000,
+    "reputation": 88,
+    "stadium": {
+      "name": "City Stadium",
+      "capacity": 50000
+    }
+  },
+  {
+    "id": "CLB-0035",
+    "name": "AlbionX Rovers",
+    "shortName": "ALX Rvs",
+    "nationality": "ALX",
+    "division": "AlbionX-D2",
+    "budget": 5000000,
+    "reputation": 65,
+    "stadium": {
+      "name": "Rovers Ground",
+      "capacity": 18000
+    }
+  },
+  {
+    "id": "CLB-0036",
+    "name": "LusitaniaX Porto",
+    "shortName": "LUX Porto",
+    "nationality": "LUX",
+    "division": "LusitaniaX-D1",
+    "budget": 12000000,
+    "reputation": 82,
+    "stadium": {
+      "name": "Porto Stadium",
+      "capacity": 40000
+    }
+  },
+  {
+    "id": "CLB-0037",
+    "name": "FC LusitaniaX",
+    "shortName": "FC LUX",
+    "nationality": "LUX",
+    "division": "LusitaniaX-D1",
+    "budget": 14000000,
+    "reputation": 85,
+    "stadium": {
+      "name": "LusitaniaX Arena",
+      "capacity": 42000
+    }
+  },
+  {
+    "id": "CLB-0069",
+    "name": "CaledoniaX Celtic",
+    "shortName": "CAL Celtic",
+    "nationality": "CAL",
+    "division": "CaledoniaX-D1",
+    "budget": 16000000,
+    "reputation": 87,
+    "stadium": {
+      "name": "Celtic Park",
+      "capacity": 48000
+    }
+  },
+  {
+    "id": "CLB-0103",
+    "name": "Real IberiaX",
+    "shortName": "Real IBE",
+    "nationality": "IBE",
+    "division": "IberiaX-D1",
+    "budget": 25000000,
+    "reputation": 95,
+    "stadium": {
+      "name": "Real Stadium",
+      "capacity": 60000
+    }
+  },
+  {
+    "id": "CLB-0137",
+    "name": "AC ItalicaX",
+    "shortName": "AC ITA",
+    "nationality": "ITA",
+    "division": "ItalicaX-D1",
+    "budget": 22000000,
+    "reputation": 92,
+    "stadium": {
+      "name": "ItalicaX Arena",
+      "capacity": 58000
+    }
+  },
+  {
+    "id": "CLB-0171",
+    "name": "FC GermanicaX",
+    "shortName": "FC GER",
+    "nationality": "GER",
+    "division": "GermanicaX-D1",
+    "budget": 20000000,
+    "reputation": 90,
+    "stadium": {
+      "name": "GermanicaX Stadium",
+      "capacity": 55000
+    }
+  }
+]

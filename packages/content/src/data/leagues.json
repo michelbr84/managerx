@@ -1,0 +1,150 @@
+[
+  {
+    "id": "LEA-A",
+    "name": "AlbionX Premier League",
+    "nationality": "ALX",
+    "divisions": [
+      {
+        "name": "AlbionX-D1",
+        "level": 1,
+        "teams": 18,
+        "promotion": 0,
+        "relegation": 3,
+        "playoffs": 0
+      },
+      {
+        "name": "AlbionX-D2",
+        "level": 2,
+        "teams": 16,
+        "promotion": 3,
+        "relegation": 0,
+        "playoffs": 4
+      }
+    ],
+    "cupName": "ALX Cup"
+  },
+  {
+    "id": "LEA-B",
+    "name": "LusitaniaX Liga",
+    "nationality": "LUX",
+    "divisions": [
+      {
+        "name": "LusitaniaX-D1",
+        "level": 1,
+        "teams": 18,
+        "promotion": 0,
+        "relegation": 3,
+        "playoffs": 0
+      },
+      {
+        "name": "LusitaniaX-D2",
+        "level": 2,
+        "teams": 16,
+        "promotion": 3,
+        "relegation": 0,
+        "playoffs": 4
+      }
+    ],
+    "cupName": "LUX Cup"
+  },
+  {
+    "id": "LEA-C",
+    "name": "CaledoniaX Championship",
+    "nationality": "CAL",
+    "divisions": [
+      {
+        "name": "CaledoniaX-D1",
+        "level": 1,
+        "teams": 18,
+        "promotion": 0,
+        "relegation": 3,
+        "playoffs": 0
+      },
+      {
+        "name": "CaledoniaX-D2",
+        "level": 2,
+        "teams": 16,
+        "promotion": 3,
+        "relegation": 0,
+        "playoffs": 4
+      }
+    ],
+    "cupName": "CAL Cup"
+  },
+  {
+    "id": "LEA-D",
+    "name": "IberiaX Primera",
+    "nationality": "IBE",
+    "divisions": [
+      {
+        "name": "IberiaX-D1",
+        "level": 1,
+        "teams": 18,
+        "promotion": 0,
+        "relegation": 3,
+        "playoffs": 0
+      },
+      {
+        "name": "IberiaX-D2",
+        "level": 2,
+        "teams": 16,
+        "promotion": 3,
+        "relegation": 0,
+        "playoffs": 4
+      }
+    ],
+    "cupName": "IBE Cup"
+  },
+  {
+    "id": "LEA-E",
+    "name": "ItalicaX Serie A",
+    "nationality": "ITA",
+    "divisions": [
+      {
+        "name": "ItalicaX-D1",
+        "level": 1,
+        "teams": 18,
+        "promotion": 0,
+        "relegation": 3,
+        "playoffs": 0
+      },
+      {
+        "name": "ItalicaX-D2",
+        "level": 2,
+        "teams": 16,
+        "promotion": 3,
+        "relegation": 0,
+        "playoffs": 4
+      }
+    ],
+    "cupName": "ITA Cup",
+    "foreignerRule": {
+      "maxOnPitch": 5,
+      "division": "D1"
+    }
+  },
+  {
+    "id": "LEA-F",
+    "name": "GermanicaX Bundesliga",
+    "nationality": "GER",
+    "divisions": [
+      {
+        "name": "GermanicaX-D1",
+        "level": 1,
+        "teams": 18,
+        "promotion": 0,
+        "relegation": 3,
+        "playoffs": 0
+      },
+      {
+        "name": "GermanicaX-D2",
+        "level": 2,
+        "teams": 16,
+        "promotion": 3,
+        "relegation": 0,
+        "playoffs": 4
+      }
+    ],
+    "cupName": "GER Cup"
+  }
+]
