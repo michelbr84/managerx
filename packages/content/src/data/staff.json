@@ -1,0 +1,77 @@
+[
+  {
+    "id": "STF-0001",
+    "clubId": "CLB-0001",
+    "name": "Roberto Martinez",
+    "age": 45,
+    "nationality": "ALX",
+    "role": "Manager",
+    "attributes": {
+      "tacticalKnowledge": 16,
+      "trainingAttack": 15,
+      "trainingDefense": 14,
+      "setPieces": 13,
+      "manManagement": 17,
+      "motivation": 16,
+      "discipline": 15,
+      "adaptability": 14,
+      "judgingAbility": 15,
+      "judgingPotential": 14,
+      "negotiating": 13
+    },
+    "contract": {
+      "wage": 15000,
+      "expires": "2026-06-30"
+    }
+  },
+  {
+    "id": "STF-0002",
+    "clubId": "CLB-0001",
+    "name": "David Wilson",
+    "age": 38,
+    "nationality": "ALX",
+    "role": "Assistant Manager",
+    "attributes": {
+      "tacticalKnowledge": 14,
+      "trainingAttack": 15,
+      "trainingDefense": 13,
+      "setPieces": 12,
+      "manManagement": 13,
+      "motivation": 14,
+      "discipline": 13,
+      "adaptability": 12,
+      "judgingAbility": 13,
+      "judgingPotential": 12,
+      "negotiating": 11
+    },
+    "contract": {
+      "wage": 8000,
+      "expires": "2025-06-30"
+    }
+  },
+  {
+    "id": "STF-0003",
+    "clubId": "CLB-0001",
+    "name": "Carlos Rodriguez",
+    "age": 52,
+    "nationality": "ALX",
+    "role": "Chief Scout",
+    "attributes": {
+      "tacticalKnowledge": 12,
+      "trainingAttack": 10,
+      "trainingDefense": 10,
+      "setPieces": 9,
+      "manManagement": 11,
+      "motivation": 10,
+      "discipline": 11,
+      "adaptability": 13,
+      "judgingAbility": 17,
+      "judgingPotential": 16,
+      "negotiating": 14
+    },
+    "contract": {
+      "wage": 6500,
+      "expires": "2025-06-30"
+    }
+  }
+]

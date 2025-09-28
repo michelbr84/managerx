@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "ManagerX",
+    "subtitle": "Football Manager"
+  },
+  "navigation": {
+    "menu": "Main Menu",
+    "newGame": "New Game",
+    "calendar": "Calendar",
+    "squad": "Squad",
+    "tactics": "Tactics",
+    "match": "Match",
+    "inbox": "Inbox",
+    "scouting": "Scouting",
+    "finances": "Finances",
+    "settings": "Settings"
+  },
+  "menu": {
+    "continueGame": "Continue Game",
+    "newGame": "New Game",
+    "loadGame": "Load Game",
+    "settings": "Settings",
+    "exit": "Exit"
+  },
+  "newGame": {
+    "title": "New Game",
+    "selectClub": "Select Club",
+    "selectLeague": "Select League",
+    "managerName": "Manager Name",
+    "difficulty": "Difficulty",
+    "start": "Start Career"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "nextMatch": "Next Match",
+    "league": "League",
+    "cup": "Cup",
+    "training": "Training",
+    "rest": "Rest"
+  },
+  "squad": {
+    "title": "Club Squad",
+    "position": "Position",
+    "name": "Name",
+    "age": "Age",
+    "condition": "Condition",
+    "morale": "Morale",
+    "value": "Value",
+    "wage": "Wage"
+  },
+  "tactics": {
+    "title": "Tactics",
+    "formation": "Formation",
+    "mentality": "Mentality",
+    "pressing": "Pressing",
+    "tempo": "Tempo",
+    "width": "Width",
+    "save": "Save Tactic",
+    "load": "Load Tactic"
+  },
+  "match": {
+    "title": "Match",
+    "vs": "vs",
+    "home": "Home",
+    "away": "Away",
+    "score": "Score",
+    "time": "Time",
+    "events": "Events",
+    "stats": "Statistics",
+    "fastForward": "Fast Forward",
+    "pause": "Pause"
+  },
+  "inbox": {
+    "title": "Inbox",
+    "news": "News",
+    "transfers": "Transfers",
+    "injuries": "Injuries",
+    "contracts": "Contracts",
+    "board": "Board"
+  },
+  "scouting": {
+    "title": "Scouting Reports",
+    "player": "Player",
+    "club": "Club",
+    "rating": "Rating",
+    "potential": "Potential",
+    "price": "Price",
+    "scout": "Scout",
+    "shortlist": "Shortlist"
+  },
+  "assistant": {
+    "title": "Club Assistant",
+    "suggestions": "Suggestions",
+    "nextMatch": "Next Match",
+    "teamNews": "Team News",
+    "transfers": "Transfers",
+    "training": "Training"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "shortcuts": {
+    "save": "Ctrl+S",
+    "menu": "Esc",
+    "calendar": "C",
+    "squad": "S",
+    "tactics": "T",
+    "inbox": "I",
+    "scouting": "R"
+  }
+}
