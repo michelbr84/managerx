@@ -78,6 +78,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
               data-tooltip-id="sidebar-toggle"
               data-tooltip-content={sidebarCollapsed ? "Expandir" : "Recolher"}
+              data-testid="sidebar-toggle"
             >
               {sidebarCollapsed ? <ChevronRight size={20} /> : <ChevronLeft size={20} />}
             </button>
@@ -162,6 +163,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         )}
         data-tooltip-id="assistant-toggle"
         data-tooltip-content={isAssistantOpen ? "Fechar Assistente" : "Abrir Assistente"}
+        data-testid="assistant-toggle"
       >
         <ChevronLeft size={20} />
       </button>
