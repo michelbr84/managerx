@@ -1,0 +1,205 @@
+[
+  {
+    "id": "ST-0201",
+    "title": "Início da Janela de Transferências",
+    "category": "season_events",
+    "content": "A janela de transferências está oficialmente aberta. Este é o momento ideal para reforçar o elenco com novos jogadores ou negociar saídas de atletas que não fazem parte dos planos.",
+    "conditions": [
+      {
+        "type": "calendar",
+        "operator": "contains",
+        "value": 6,
+        "weight": 1.0
+      }
+    ],
+    "choices": [
+      {
+        "id": "active_market",
+        "text": "Buscar ativamente por reforços",
+        "effects": [
+          {
+            "type": "media_attention",
+            "value": 10,
+            "description": "Mídia acompanha movimentações"
+          }
+        ],
+        "weight": 0.8
+      },
+      {
+        "id": "evaluate_squad",
+        "text": "Avaliar elenco atual primeiro",
+        "effects": [
+          {
+            "type": "morale_change",
+            "value": 3,
+            "description": "Jogadores sentem confiança"
+          }
+        ],
+        "weight": 0.6
+      },
+      {
+        "id": "sell_players",
+        "text": "Focar em vendas para equilibrar finanças",
+        "effects": [
+          {
+            "type": "finance",
+            "value": 3000000,
+            "description": "Receita com vendas"
+          },
+          {
+            "type": "morale_change",
+            "value": -5,
+            "description": "Elenco fica apreensivo"
+          }
+        ],
+        "weight": 0.4
+      }
+    ],
+    "priority": "medium",
+    "cooldown": 180,
+    "maxOccurrences": 2,
+    "tags": ["transfer", "window", "planning"]
+  },
+  {
+    "id": "ST-0202",
+    "title": "Final da Temporada se Aproxima",
+    "category": "season_events",
+    "content": "Com poucas rodadas restantes, cada partida se torna crucial para os objetivos da temporada. A pressão aumenta e os jogadores sentem o peso da responsabilidade.",
+    "conditions": [
+      {
+        "type": "calendar",
+        "operator": "contains",
+        "value": 5,
+        "weight": 1.0
+      },
+      {
+        "type": "team_performance",
+        "operator": "between",
+        "value": [40, 80],
+        "weight": 0.8
+      }
+    ],
+    "choices": [
+      {
+        "id": "motivational_speech",
+        "text": "Fazer discurso motivacional",
+        "effects": [
+          {
+            "type": "morale_change",
+            "value": 8,
+            "duration": 14,
+            "description": "Equipe se sente inspirada"
+          }
+        ],
+        "weight": 0.7
+      },
+      {
+        "id": "tactical_focus",
+        "text": "Focar em preparação tática",
+        "effects": [
+          {
+            "type": "form_change",
+            "value": 5,
+            "duration": 7,
+            "description": "Equipe mais organizada"
+          }
+        ],
+        "weight": 0.6
+      },
+      {
+        "id": "pressure_management",
+        "text": "Trabalhar gestão de pressão",
+        "effects": [
+          {
+            "type": "morale_change",
+            "value": 3,
+            "description": "Jogadores mais calmos"
+          }
+        ],
+        "weight": 0.8
+      }
+    ],
+    "priority": "high",
+    "cooldown": 365,
+    "maxOccurrences": 1,
+    "tags": ["season", "pressure", "motivation"]
+  },
+  {
+    "id": "ST-0203",
+    "title": "Conquista de Título",
+    "category": "success_events",
+    "content": "Parabéns! O clube conquistou o título da liga após uma temporada excepcional. Os jogadores, torcida e diretoria estão em festa. Este é um momento histórico para o clube.",
+    "conditions": [
+      {
+        "type": "team_performance",
+        "operator": ">",
+        "value": 90,
+        "weight": 1.0
+      },
+      {
+        "type": "calendar",
+        "operator": "contains",
+        "value": 5,
+        "weight": 1.0
+      }
+    ],
+    "choices": [
+      {
+        "id": "celebrate_team",
+        "text": "Celebrar com a equipe",
+        "effects": [
+          {
+            "type": "morale_change",
+            "value": 20,
+            "duration": 30,
+            "description": "Moral da equipe nas alturas"
+          },
+          {
+            "type": "fan_loyalty",
+            "value": 30,
+            "description": "Torcida demonstra amor eterno"
+          }
+        ],
+        "weight": 0.9
+      },
+      {
+        "id": "plan_future",
+        "text": "Focar nos planos para próxima temporada",
+        "effects": [
+          {
+            "type": "board_confidence",
+            "value": 25,
+            "description": "Diretoria confia no projeto"
+          },
+          {
+            "type": "reputation",
+            "value": 15,
+            "description": "Reputação como técnico cresce"
+          }
+        ],
+        "weight": 0.7
+      },
+      {
+        "id": "media_interviews",
+        "text": "Dar entrevistas para a mídia",
+        "effects": [
+          {
+            "type": "media_attention",
+            "value": 40,
+            "description": "Holofotes da mídia"
+          },
+          {
+            "type": "reputation",
+            "value": 10,
+            "description": "Reconhecimento público"
+          }
+        ],
+        "weight": 0.6
+      }
+    ],
+    "priority": "critical",
+    "cooldown": 365,
+    "maxOccurrences": 1,
+    "tags": ["success", "title", "celebration"]
+  }
+]
